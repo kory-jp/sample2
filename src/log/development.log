@@ -585,3 +585,2751 @@ puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
 puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
 puma (5.1.1) lib/puma/server.rb:431:in `process_client'
 puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 172.22.0.1 at 2021-01-13 01:52:02 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.5ms | Allocations: 437)
+Completed 200 OK in 165ms (Views: 71.2ms | ActiveRecord: 0.0ms | Allocations: 6024)
+
+
+Started GET "/" for 172.22.0.1 at 2021-01-13 01:52:03 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 216)
+Completed 200 OK in 23ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 172.22.0.1 at 2021-01-13 02:39:50 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 104)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /app/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.45.0
+Time: 9515ms
+Built at: 01/13/2021 2:40:10 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 20105.1ms | Allocations: 12284)
+Completed 200 OK in 20118ms (Views: 20112.7ms | Allocations: 15309)
+
+
+Started GET "/" for 172.22.0.1 at 2021-01-13 02:40:28 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 3368)
+Completed 200 OK in 53ms (Views: 52.3ms | Allocations: 3747)
+
+
+Started GET "/" for 172.23.0.1 at 2021-01-13 03:18:26 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 23.6ms | Allocations: 323)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 976.7ms | Allocations: 13976)
+Completed 200 OK in 1193ms (Views: 1083.4ms | ActiveRecord: 0.0ms | Allocations: 17573)
+
+
+Started GET "/" for 172.24.0.1 at 2021-01-13 09:52:20 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/" for 172.24.0.1 at 2021-01-13 09:52:20 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (12.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 166)
+  Rendered boards/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4807.4ms | Allocations: 184479)
+Completed 200 OK in 4852ms (Views: 4824.5ms | ActiveRecord: 0.0ms | Allocations: 187720)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 4808.9ms | Allocations: 184694)
+Completed 200 OK in 4839ms (Views: 4815.6ms | ActiveRecord: 0.0ms | Allocations: 187140)
+
+
+Started GET "/boards" for 172.26.0.1 at 2021-01-13 10:14:03 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (17.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/boards"):
+  
+Started GET "/" for 172.26.0.1 at 2021-01-13 10:14:10 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 112)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 5b91c06393f15baac6ea
+Version: webpack 4.45.0
+Time: 13371ms
+Built at: 01/13/2021 10:14:35 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-a88afe3b448a9926f603.js    664 KiB  application  [emitted] [immutable]  application
+js/application-a88afe3b448a9926f603.js.map    775 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-a88afe3b448a9926f603.js js/application-a88afe3b448a9926f603.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 554 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../stylesheets/application.scss' in '/app/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 10:0-41
+
+  Rendered layout layouts/application.html.erb (Duration: 25299.5ms | Allocations: 14239)
+Completed 200 OK in 25324ms (Views: 25305.9ms | ActiveRecord: 0.0ms | Allocations: 16186)
+
+
+Started GET "/" for 172.26.0.1 at 2021-01-13 10:51:52 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.1ms | Allocations: 6713)
+Completed 200 OK in 71ms (Views: 68.8ms | Allocations: 7801)
+
+
+Started GET "/" for 172.26.0.1 at 2021-01-13 11:01:41 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.0ms | Allocations: 6716)
+Completed 200 OK in 67ms (Views: 63.7ms | Allocations: 7803)
+
+
+Started GET "/" for 172.26.0.1 at 2021-01-13 11:11:09 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2690.5ms | Allocations: 61148)
+Completed 200 OK in 2694ms (Views: 2693.3ms | Allocations: 61523)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('5277929974492897470', 0)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBoards (20210113111647)
+  [1m[35m (80.7ms)[0m  [1m[35mCREATE TABLE `boards` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `title` varchar(255), `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210113111647')[0m
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (12.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 172.26.0.1 at 2021-01-14 00:59:37 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.9ms | Allocations: 6522)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms | Allocations: 7017)
+
+
+Started GET "/" for 172.26.0.1 at 2021-01-14 01:01:37 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.3ms | Allocations: 221)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 936)
+
+
+Started GET "/index" for 172.26.0.1 at 2021-01-14 01:01:52 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/boards" for 172.26.0.1 at 2021-01-14 01:02:04 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 6790)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.0ms | Allocations: 7881)
+
+
+Started GET "/boards/new" for 172.26.0.1 at 2021-01-14 01:12:15 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 6783)
+Completed 200 OK in 58ms (Views: 53.9ms | Allocations: 7876)
+
+
+Started GET "/boards" for 172.26.0.1 at 2021-01-14 01:12:19 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 6659)
+Completed 200 OK in 55ms (Views: 52.1ms | Allocations: 7162)
+
+
+Started GET "/boards" for 172.26.0.1 at 2021-01-14 01:14:16 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.8ms | Allocations: 6822)
+Completed 200 OK in 75ms (Views: 73.2ms | Allocations: 7902)
+
+
+Started GET "/boards/new" for 172.26.0.1 at 2021-01-14 01:14:17 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.7ms | Allocations: 6635)
+Completed 200 OK in 72ms (Views: 68.3ms | Allocations: 7136)
+
+
+Started GET "/boards" for 172.26.0.1 at 2021-01-14 01:14:20 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 6545)
+Completed 200 OK in 58ms (Views: 57.0ms | Allocations: 6920)
+
+
+Started GET "/boards/new" for 172.26.0.1 at 2021-01-14 01:33:50 +0000
+Cannot render console from 172.26.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 32.3ms | Allocations: 1249)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.5ms | Allocations: 7903)
+Completed 200 OK in 148ms (Views: 96.0ms | ActiveRecord: 8.9ms | Allocations: 13937)
+
+
+Started GET "/boards" for 172.27.0.1 at 2021-01-14 02:06:49 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (15.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 358)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2785.3ms | Allocations: 29525)
+Completed 200 OK in 2946ms (Views: 2838.7ms | ActiveRecord: 0.0ms | Allocations: 33280)
+
+
+Started GET "/boards/new" for 172.27.0.1 at 2021-01-14 02:08:51 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 68.7ms | Allocations: 1454)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 175.9ms | Allocations: 7906)
+Completed 200 OK in 523ms (Views: 180.6ms | ActiveRecord: 13.8ms | Allocations: 21715)
+
+
+Started GET "/boards/new" for 172.27.0.1 at 2021-01-14 02:10:11 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.0ms | Allocations: 6893)
+Completed 200 OK in 106ms (Views: 99.9ms | ActiveRecord: 0.0ms | Allocations: 11228)
+
+
+Started GET "/boards" for 172.27.0.1 at 2021-01-14 02:12:55 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 33)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 87.7ms | Allocations: 6551)
+Completed 200 OK in 93ms (Views: 91.6ms | ActiveRecord: 0.0ms | Allocations: 6928)
+
+
+Started GET "/boards/new" for 172.27.0.1 at 2021-01-14 02:12:58 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 6893)
+Completed 200 OK in 89ms (Views: 77.7ms | ActiveRecord: 0.0ms | Allocations: 11294)
+
+
+Started GET "/boards/new" for 172.27.0.1 at 2021-01-14 02:19:38 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 510)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.2ms | Allocations: 6959)
+Completed 200 OK in 118ms (Views: 78.7ms | ActiveRecord: 2.7ms | Allocations: 14883)
+
+
+Started GET "/boards/new" for 172.27.0.1 at 2021-01-14 02:33:31 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 27.7ms | Allocations: 1271)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 950.8ms | Allocations: 14932)
+Completed 200 OK in 1281ms (Views: 972.6ms | ActiveRecord: 5.3ms | Allocations: 27915)
+
+
+Started GET "/boards/new" for 172.28.0.1 at 2021-01-14 02:33:58 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (14.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 24.0ms | Allocations: 1271)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 714.8ms | Allocations: 15907)
+Completed 200 OK in 1016ms (Views: 732.1ms | ActiveRecord: 10.3ms | Allocations: 34681)
+
+
+Started GET "/boards/new" for 172.28.0.1 at 2021-01-14 02:45:50 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 510)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 108.7ms | Allocations: 6961)
+Completed 200 OK in 142ms (Views: 113.1ms | ActiveRecord: 1.1ms | Allocations: 14726)
+
+
+Started GET "/boards/new" for 172.28.0.1 at 2021-01-14 03:02:53 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 30.8ms | Allocations: 1271)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1132.4ms | Allocations: 14933)
+Completed 200 OK in 1508ms (Views: 1152.7ms | ActiveRecord: 6.9ms | Allocations: 27916)
+
+
+Started POST "/boards" for 172.28.0.1 at 2021-01-14 03:05:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/boards"):
+  
+Started GET "/boards/new" for 172.28.0.1 at 2021-01-14 03:05:50 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 451)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 107.2ms | Allocations: 6900)
+Completed 200 OK in 132ms (Views: 111.5ms | ActiveRecord: 0.0ms | Allocations: 11222)
+
+
+Started GET "/boards/new" for 172.28.0.1 at 2021-01-14 03:06:04 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 79.9ms | Allocations: 6902)
+Completed 200 OK in 94ms (Views: 84.5ms | ActiveRecord: 0.0ms | Allocations: 11301)
+
+
+Started POST "/boards" for 172.28.0.1 at 2021-01-14 03:32:53 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"hello", "title"=>"world", "body"=>"Hello world!"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+  [1m[36mBoard Create (8.5ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('hello', 'world', 'Hello world!', '2021-01-14 03:32:54.525337', '2021-01-14 03:32:54.525337')[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 69ms (ActiveRecord: 18.3ms | Allocations: 9951)
+
+
+Started GET "/boards" for 172.28.0.1 at 2021-01-14 03:32:56 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 1109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 891.0ms | Allocations: 15769)
+Completed 200 OK in 920ms (Views: 903.4ms | ActiveRecord: 1.9ms | Allocations: 17535)
+
+
+Started GET "/boards" for 172.28.0.1 at 2021-01-14 03:37:45 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (7.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 31.5ms | Allocations: 4812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 781.4ms | Allocations: 20091)
+Completed 200 OK in 837ms (Views: 781.6ms | ActiveRecord: 15.6ms | Allocations: 22969)
+
+
+Started GET "/boards" for 172.28.0.1 at 2021-01-14 03:42:45 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 972)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.1ms | Allocations: 7664)
+Completed 200 OK in 79ms (Views: 75.7ms | ActiveRecord: 1.4ms | Allocations: 8770)
+
+
+Started GET "/boards" for 172.28.0.1 at 2021-01-14 03:43:12 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 973)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.5ms | Allocations: 7662)
+Completed 200 OK in 68ms (Views: 64.5ms | ActiveRecord: 1.2ms | Allocations: 8768)
+
+
+Started GET "/boards" for 172.28.0.1 at 2021-01-14 03:47:42 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 19.2ms | Allocations: 4296)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 4361)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 1.7ms | Allocations: 5443)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    21:         <th><%= board.id %></th>
+    22:         <td><%= board.title %></td>
+    23:         <td><%= board.name %></td>
+    24:         <td><%= board.created_at.strftime.to_s(:datetime_jp) %></td>
+    25:         <td><%= board.updated_at.strftime.to_s(:datetime_jp) %></td>
+    26:       </tr>
+    27:     <% end %>
+  
+app/views/boards/index.html.erb:24
+app/views/boards/index.html.erb:19
+Started GET "/boards" for 172.28.0.1 at 2021-01-14 03:48:04 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 957)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.1ms | Allocations: 7660)
+Completed 200 OK in 82ms (Views: 78.1ms | ActiveRecord: 1.4ms | Allocations: 8758)
+
+
+Started GET "/boards" for 172.30.0.1 at 2021-01-14 03:54:13 +0000
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (16.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (10.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 5080)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 730.8ms | Allocations: 19272)
+Completed 200 OK in 791ms (Views: 729.7ms | ActiveRecord: 17.9ms | Allocations: 22443)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:19:00 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (14.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (8.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 7.2ms | Allocations: 234)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 804.9ms | Allocations: 15770)
+Completed 200 OK in 910ms (Views: 820.6ms | ActiveRecord: 18.8ms | Allocations: 23831)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:20:31 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 171)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 84.5ms | Allocations: 6860)
+Completed 200 OK in 100ms (Views: 92.2ms | ActiveRecord: 1.3ms | Allocations: 8540)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:22:00 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 4.1ms | Allocations: 288)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 6976)
+Completed 200 OK in 80ms (Views: 71.9ms | ActiveRecord: 1.4ms | Allocations: 8656)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:26:08 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.2ms | Allocations: 6639)
+Completed 200 OK in 113ms (Views: 78.5ms | ActiveRecord: 12.9ms | Allocations: 11027)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:26:13 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+  Rendered boards/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.3ms | Allocations: 7508)
+Completed 200 OK in 77ms (Views: 72.7ms | ActiveRecord: 1.5ms | Allocations: 8022)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 10:26:15 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 19.5ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.3ms | Allocations: 7642)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms | Allocations: 8180)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-14 10:32:29 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 4246)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.3ms | Allocations: 10894)
+Completed 200 OK in 86ms (Views: 76.4ms | ActiveRecord: 2.7ms | Allocations: 12241)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 10:32:32 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 744)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.3ms | Allocations: 7265)
+Completed 200 OK in 92ms (Views: 88.7ms | ActiveRecord: 0.0ms | Allocations: 7783)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-14 10:32:40 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.0ms | Allocations: 7338)
+Completed 200 OK in 72ms (Views: 69.0ms | ActiveRecord: 1.6ms | Allocations: 7729)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-14 10:33:30 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1078)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.3ms | Allocations: 7770)
+Completed 200 OK in 81ms (Views: 77.6ms | ActiveRecord: 1.3ms | Allocations: 8868)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:33:33 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 6788)
+Completed 200 OK in 70ms (Views: 59.1ms | ActiveRecord: 1.9ms | Allocations: 7984)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-14 10:33:37 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 831)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.4ms | Allocations: 7342)
+Completed 200 OK in 69ms (Views: 66.9ms | ActiveRecord: 1.4ms | Allocations: 7730)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-14 10:34:19 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.4ms | Allocations: 7762)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 1.5ms | Allocations: 8860)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-14 10:34:52 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1072)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.4ms | Allocations: 7769)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 1.4ms | Allocations: 8869)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 10:34:53 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 692)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 7213)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms | Allocations: 7732)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:34:54 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 7344)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 1.3ms | Allocations: 7732)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:34:55 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 6790)
+Completed 200 OK in 67ms (Views: 61.0ms | ActiveRecord: 1.3ms | Allocations: 7873)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:34:56 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 831)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.0ms | Allocations: 7342)
+Completed 200 OK in 76ms (Views: 73.3ms | ActiveRecord: 1.5ms | Allocations: 7730)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:39:37 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1068)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.4ms | Allocations: 7754)
+Completed 200 OK in 74ms (Views: 70.4ms | ActiveRecord: 1.2ms | Allocations: 8855)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 10:39:38 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 741)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 103.6ms | Allocations: 7267)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms | Allocations: 7786)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:39:39 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.1ms | Allocations: 7349)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 2.6ms | Allocations: 7738)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:39:40 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 333)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.6ms | Allocations: 6857)
+Completed 200 OK in 78ms (Views: 71.0ms | ActiveRecord: 1.6ms | Allocations: 7939)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:39:43 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.8ms | Allocations: 7339)
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 1.1ms | Allocations: 7727)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:39:51 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 79.1ms | Allocations: 7762)
+Completed 200 OK in 88ms (Views: 84.0ms | ActiveRecord: 1.3ms | Allocations: 8861)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 10:39:52 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (2.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 6.4ms | Allocations: 326)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 102.7ms | Allocations: 6840)
+Completed 200 OK in 123ms (Views: 110.9ms | ActiveRecord: 2.9ms | Allocations: 7923)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 10:39:53 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 103.6ms | Allocations: 7348)
+Completed 200 OK in 109ms (Views: 104.6ms | ActiveRecord: 3.2ms | Allocations: 7737)
+
+
+Started GET "/boards/1/edit" for 172.31.0.1 at 2021-01-14 10:57:51 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:20:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 4.8ms | Allocations: 829)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 7486)
+Completed 200 OK in 90ms (Views: 65.1ms | ActiveRecord: 2.3ms | Allocations: 12690)
+
+
+Started GET "/boards/1/edit" for 172.31.0.1 at 2021-01-14 11:09:01 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:20:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 1.7ms | Allocations: 564)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 7052)
+Completed 200 OK in 81ms (Views: 56.4ms | ActiveRecord: 2.6ms | Allocations: 11615)
+
+
+Started PATCH "/boards/1" for 172.31.0.1 at 2021-01-14 11:09:20 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"hello", "title"=>"world", "body"=>"Hello world!\r\ngood-bye world!"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:26:in `update'
+  [1m[36mBoard Update (2.4ms)[0m  [1m[33mUPDATE `boards` SET `boards`.`body` = 'Hello world!\r\ngood-bye world!', `boards`.`updated_at` = '2021-01-14 11:09:20.703734' WHERE `boards`.`id` = 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:26:in `update'
+  [1m[36mTRANSACTION (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:26:in `update'
+Redirected to http://localhost:3000/boards/1
+Completed 302 Found in 33ms (ActiveRecord: 11.0ms | Allocations: 4682)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 11:09:20 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.5ms | Allocations: 7529)
+Completed 200 OK in 76ms (Views: 65.3ms | ActiveRecord: 1.6ms | Allocations: 8610)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:09:24 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1071)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.4ms | Allocations: 7588)
+Completed 200 OK in 68ms (Views: 65.4ms | ActiveRecord: 1.4ms | Allocations: 8102)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 11:09:26 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 6710)
+Completed 200 OK in 64ms (Views: 57.8ms | ActiveRecord: 1.3ms | Allocations: 7667)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:09:28 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 824)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.5ms | Allocations: 7335)
+Completed 200 OK in 68ms (Views: 65.2ms | ActiveRecord: 1.5ms | Allocations: 7723)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 11:11:55 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 736)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.3ms | Allocations: 7436)
+Completed 200 OK in 73ms (Views: 69.2ms | ActiveRecord: 0.0ms | Allocations: 8539)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:11:56 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.0ms | Allocations: 7583)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 2.4ms | Allocations: 8098)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 11:11:57 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 390)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 6904)
+Completed 200 OK in 68ms (Views: 60.3ms | ActiveRecord: 1.6ms | Allocations: 7986)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 11:12:06 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 4.5ms | Allocations: 383)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 7072)
+Completed 200 OK in 68ms (Views: 62.0ms | ActiveRecord: 1.2ms | Allocations: 8734)
+
+
+Started GET "/boards/1/edit" for 172.31.0.1 at 2021-01-14 11:12:07 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:20:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 766)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.9ms | Allocations: 7288)
+Completed 200 OK in 70ms (Views: 63.3ms | ActiveRecord: 1.0ms | Allocations: 8372)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:12:09 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1068)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 79.3ms | Allocations: 7582)
+Completed 200 OK in 84ms (Views: 79.0ms | ActiveRecord: 3.1ms | Allocations: 8097)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 11:17:08 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 4.9ms | Allocations: 678)
+  Rendered boards/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1042)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.4ms | Allocations: 7738)
+Completed 200 OK in 84ms (Views: 78.3ms | ActiveRecord: 0.0ms | Allocations: 8841)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:23:07 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1354)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.6ms | Allocations: 8043)
+Completed 200 OK in 105ms (Views: 102.8ms | ActiveRecord: 2.7ms | Allocations: 9138)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 11:23:09 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 3.8ms | Allocations: 681)
+  Rendered boards/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1037)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.9ms | Allocations: 7551)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.0ms | Allocations: 8068)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:23:10 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 7348)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 1.3ms | Allocations: 7737)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 11:23:11 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 383)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.8ms | Allocations: 6897)
+Completed 200 OK in 75ms (Views: 66.8ms | ActiveRecord: 1.6ms | Allocations: 7979)
+
+
+Started GET "/boards/1/edit" for 172.31.0.1 at 2021-01-14 11:23:12 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:20:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.6ms | Allocations: 473)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 7.1ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.9ms | Allocations: 7231)
+Completed 200 OK in 69ms (Views: 62.5ms | ActiveRecord: 1.4ms | Allocations: 8316)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:23:14 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 826)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.5ms | Allocations: 7342)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 1.1ms | Allocations: 7732)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:28:17 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.4ms | Allocations: 7755)
+Completed 200 OK in 83ms (Views: 75.2ms | ActiveRecord: 2.0ms | Allocations: 8854)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 11:28:19 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 2.8ms | Allocations: 681)
+  Rendered boards/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 7552)
+Completed 200 OK in 79ms (Views: 74.6ms | ActiveRecord: 0.0ms | Allocations: 8070)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:28:19 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 69.3ms | Allocations: 7348)
+Completed 200 OK in 74ms (Views: 71.6ms | ActiveRecord: 1.3ms | Allocations: 7737)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-14 11:28:20 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 4.4ms | Allocations: 282)
+  Rendered boards/show.html.erb within layouts/application (Duration: 59.9ms | Allocations: 3161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 125.0ms | Allocations: 9593)
+Completed 200 OK in 136ms (Views: 128.0ms | ActiveRecord: 1.1ms | Allocations: 10675)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 11:28:21 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 831)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.2ms | Allocations: 7352)
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 1.4ms | Allocations: 7742)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 11:28:22 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.1ms | Allocations: 438)
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 87.9ms | Allocations: 7074)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.0ms | Allocations: 7466)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 12:57:05 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 4099)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 147.1ms | Allocations: 10588)
+Completed 200 OK in 169ms (Views: 151.6ms | ActiveRecord: 2.7ms | Allocations: 11337)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-14 12:57:09 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.4ms | Allocations: 442)
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 563)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 88.4ms | Allocations: 7088)
+Completed 200 OK in 96ms (Views: 93.4ms | ActiveRecord: 0.0ms | Allocations: 7480)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-14 12:57:39 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"こんにちは", "title"=>"正解", "body"=>"こんにちは世界"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+  [1m[36mBoard Create (3.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('こんにちは', '正解', 'こんにちは世界', '2021-01-14 12:57:39.950015', '2021-01-14 12:57:39.950015')[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 375ms (ActiveRecord: 11.4ms | Allocations: 54174)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 12:59:22 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 904)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 109.2ms | Allocations: 7431)
+Completed 200 OK in 115ms (Views: 109.9ms | ActiveRecord: 3.1ms | Allocations: 7819)
+
+
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-14 12:59:30 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:17:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 0.8ms | Allocations: 154)
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 352)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.7ms | Allocations: 6873)
+Completed 200 OK in 109ms (Views: 100.9ms | ActiveRecord: 1.3ms | Allocations: 7945)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-14 12:59:39 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 904)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.6ms | Allocations: 7415)
+Completed 200 OK in 90ms (Views: 87.7ms | ActiveRecord: 1.8ms | Allocations: 7802)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 00:54:53 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (16.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (10.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:20
+  Rendered boards/index.html.erb within layouts/application (Duration: 34.9ms | Allocations: 5085)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 935.1ms | Allocations: 20402)
+Completed 200 OK in 989ms (Views: 929.0ms | ActiveRecord: 18.6ms | Allocations: 23280)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 00:59:59 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 4368)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 84.9ms | Allocations: 11018)
+Completed 200 OK in 99ms (Views: 80.9ms | ActiveRecord: 8.8ms | Allocations: 12366)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 01:05:48 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 19.6ms | Allocations: 1101)
+  Rendered boards/new.html.erb within layouts/application (Duration: 26.0ms | Allocations: 1471)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.9ms | Allocations: 7954)
+Completed 200 OK in 102ms (Views: 80.1ms | ActiveRecord: 8.8ms | Allocations: 11753)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 01:05:57 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"a", "title"=>"b", "body"=>"c"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+  [1m[36mBoard Create (1.5ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('a', 'b', 'c', '2021-01-15 01:05:57.555125', '2021-01-15 01:05:57.555125')[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (7.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:12:in `create'
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 10.8ms | Allocations: 6935)
+
+
+  
+NameError (undefined local variable or method `board' for #<BoardsController:0x0000000000ba40>
+Did you mean?  board_url):
+  
+app/controllers/concerns/boards_controller.rb:13:in `create'
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 01:06:49 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 4265)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 10753)
+Completed 200 OK in 87ms (Views: 68.1ms | ActiveRecord: 7.8ms | Allocations: 11511)
+
+
+Started GET "/boards/3" for 172.31.0.1 at 2021-01-15 01:06:51 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:17:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 5.5ms | Allocations: 274)
+  Rendered boards/show.html.erb within layouts/application (Duration: 17.3ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.7ms | Allocations: 7337)
+Completed 200 OK in 95ms (Views: 82.1ms | ActiveRecord: 1.5ms | Allocations: 8818)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 01:06:58 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 7619)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 1.3ms | Allocations: 8007)
+
+
+Started GET "/boards/3" for 172.31.0.1 at 2021-01-15 01:07:00 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:17:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 0.4ms | Allocations: 143)
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 304)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.5ms | Allocations: 6815)
+Completed 200 OK in 64ms (Views: 57.7ms | ActiveRecord: 1.6ms | Allocations: 7772)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 01:08:34 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 4246)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 87.5ms | Allocations: 10726)
+Completed 200 OK in 98ms (Views: 81.1ms | ActiveRecord: 8.8ms | Allocations: 11481)
+
+
+Started GET "/boards/3" for 172.31.0.1 at 2021-01-15 01:08:36 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:17:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 0.7ms | Allocations: 147)
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 346)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.9ms | Allocations: 6862)
+Completed 200 OK in 64ms (Views: 57.8ms | ActiveRecord: 1.1ms | Allocations: 7932)
+
+
+Started GET "/boards/3/edit" for 172.31.0.1 at 2021-01-15 01:08:39 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.0ms | Allocations: 476)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 7.0ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.2ms | Allocations: 7232)
+Completed 200 OK in 67ms (Views: 61.2ms | ActiveRecord: 1.0ms | Allocations: 8316)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 01:08:41 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 7611)
+Completed 200 OK in 65ms (Views: 62.8ms | ActiveRecord: 1.5ms | Allocations: 8000)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 01:12:35 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (14.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (9.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 31.9ms | Allocations: 5300)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 803.1ms | Allocations: 20500)
+Completed 200 OK in 860ms (Views: 800.6ms | ActiveRecord: 17.3ms | Allocations: 23337)
+
+
+Started GET "/boards/3" for 172.31.0.1 at 2021-01-15 01:12:39 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:17:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 4.1ms | Allocations: 294)
+  Rendered boards/show.html.erb within layouts/application (Duration: 13.7ms | Allocations: 842)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 110.7ms | Allocations: 7358)
+Completed 200 OK in 126ms (Views: 113.8ms | ActiveRecord: 1.3ms | Allocations: 8868)
+
+
+Started GET "/boards/3/edit" for 172.31.0.1 at 2021-01-15 01:12:41 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 17.2ms | Allocations: 1080)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 25.7ms | Allocations: 1440)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.3ms | Allocations: 7953)
+Completed 200 OK in 84ms (Views: 78.6ms | ActiveRecord: 1.1ms | Allocations: 9055)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:00:44 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1393)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 86.3ms | Allocations: 7906)
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 2.8ms | Allocations: 8305)
+
+
+Started GET "/boards/3" for 172.31.0.1 at 2021-01-15 02:00:46 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (1.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:17:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 10.9ms | Allocations: 145)
+  Rendered boards/show.html.erb within layouts/application (Duration: 13.1ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 84.9ms | Allocations: 6827)
+Completed 200 OK in 97ms (Views: 89.2ms | ActiveRecord: 1.7ms | Allocations: 7783)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:00:48 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1098)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.1ms | Allocations: 7615)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 1.2ms | Allocations: 8002)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:07:07 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 17.1ms | Allocations: 4858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 69.1ms | Allocations: 11509)
+Completed 200 OK in 87ms (Views: 75.7ms | ActiveRecord: 2.3ms | Allocations: 12898)
+
+
+Started DELETE "/boards/3" for 172.31.0.1 at 2021-01-15 02:07:10 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mBoard Load (1.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:34:in `destroy'
+  [1m[36mBoard Destroy (4.5ms)[0m  [1m[31mDELETE FROM `boards` WHERE `boards`.`id` = 3[0m
+  ↳ app/controllers/concerns/boards_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/boards
+Completed 302 Found in 21ms (ActiveRecord: 6.4ms | Allocations: 2772)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:07:10 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 7646)
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 1.2ms | Allocations: 8038)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:20:06 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 4387)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 109.5ms | Allocations: 10870)
+Completed 200 OK in 129ms (Views: 114.8ms | ActiveRecord: 4.3ms | Allocations: 11679)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 02:20:08 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 7.4ms | Allocations: 685)
+  Rendered boards/new.html.erb within layouts/application (Duration: 16.7ms | Allocations: 1047)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 77.3ms | Allocations: 7558)
+Completed 200 OK in 85ms (Views: 81.6ms | ActiveRecord: 0.0ms | Allocations: 8093)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 02:20:19 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"ko", "title"=>"lo", "body"=>"to"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+  [1m[36mBoard Create (2.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ko', 'lo', 'to', '2021-01-15 02:20:19.157543', '2021-01-15 02:20:19.157543')[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+Redirected to http://localhost:3000/boards/4
+Completed 302 Found in 26ms (ActiveRecord: 8.9ms | Allocations: 4353)
+
+
+Started GET "/boards/4" for 172.31.0.1 at 2021-01-15 02:20:19 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:44:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 6.3ms | Allocations: 268)
+  Rendered boards/show.html.erb within layouts/application (Duration: 17.5ms | Allocations: 721)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.7ms | Allocations: 7805)
+Completed 200 OK in 92ms (Views: 84.2ms | ActiveRecord: 1.2ms | Allocations: 9020)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:20:22 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1329)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.4ms | Allocations: 7839)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 1.4ms | Allocations: 8237)
+
+
+Started DELETE "/boards/4" for 172.31.0.1 at 2021-01-15 02:20:24 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:44:in `set_target_board'
+  [1m[36mBoard Destroy (5.2ms)[0m  [1m[31mDELETE FROM `boards` WHERE `boards`.`id` = 4[0m
+  ↳ app/controllers/concerns/boards_controller.rb:32:in `destroy'
+Redirected to http://localhost:3000/boards
+Completed 302 Found in 16ms (ActiveRecord: 6.5ms | Allocations: 2685)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:20:24 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 8028)
+Completed 200 OK in 62ms (Views: 60.1ms | ActiveRecord: 1.4ms | Allocations: 8423)
+
+
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-15 02:20:28 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:44:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 19.4ms | Allocations: 161)
+  Rendered boards/show.html.erb within layouts/application (Duration: 21.5ms | Allocations: 322)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.1ms | Allocations: 6844)
+Completed 200 OK in 83ms (Views: 75.7ms | ActiveRecord: 1.2ms | Allocations: 7821)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:20:31 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 7639)
+Completed 200 OK in 65ms (Views: 62.4ms | ActiveRecord: 1.2ms | Allocations: 8034)
+
+
+  [1m[35m (34.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー1', 'タイトル1', '本文1', '2021-01-15 02:28:17.874715', '2021-01-15 02:28:17.874715')[0m
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.6ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー2', 'タイトル2', '本文2', '2021-01-15 02:28:17.889359', '2021-01-15 02:28:17.889359')[0m
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー3', 'タイトル3', '本文3', '2021-01-15 02:28:17.903909', '2021-01-15 02:28:17.903909')[0m
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー4', 'タイトル4', '本文4', '2021-01-15 02:28:17.919944', '2021-01-15 02:28:17.919944')[0m
+  [1m[36mTRANSACTION (8.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー5', 'タイトル5', '本文5', '2021-01-15 02:28:17.946131', '2021-01-15 02:28:17.946131')[0m
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー6', 'タイトル6', '本文6', '2021-01-15 02:28:17.961569', '2021-01-15 02:28:17.961569')[0m
+  [1m[36mTRANSACTION (5.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (2.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー7', 'タイトル7', '本文7', '2021-01-15 02:28:17.978651', '2021-01-15 02:28:17.978651')[0m
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー8', 'タイトル8', '本文8', '2021-01-15 02:28:18.003728', '2021-01-15 02:28:18.003728')[0m
+  [1m[36mTRANSACTION (8.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー9', 'タイトル9', '本文9', '2021-01-15 02:28:18.027638', '2021-01-15 02:28:18.027638')[0m
+  [1m[36mTRANSACTION (12.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー10', 'タイトル10', '本文10', '2021-01-15 02:28:18.063563', '2021-01-15 02:28:18.063563')[0m
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー11', 'タイトル11', '本文11', '2021-01-15 02:28:18.082919', '2021-01-15 02:28:18.082919')[0m
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー12', 'タイトル12', '本文12', '2021-01-15 02:28:18.103132', '2021-01-15 02:28:18.103132')[0m
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー13', 'タイトル13', '本文13', '2021-01-15 02:28:18.127429', '2021-01-15 02:28:18.127429')[0m
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー14', 'タイトル14', '本文14', '2021-01-15 02:28:18.156210', '2021-01-15 02:28:18.156210')[0m
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー15', 'タイトル15', '本文15', '2021-01-15 02:28:18.173007', '2021-01-15 02:28:18.173007')[0m
+  [1m[36mTRANSACTION (6.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.2ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー16', 'タイトル16', '本文16', '2021-01-15 02:28:18.194257', '2021-01-15 02:28:18.194257')[0m
+  [1m[36mTRANSACTION (8.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー17', 'タイトル17', '本文17', '2021-01-15 02:28:18.219895', '2021-01-15 02:28:18.219895')[0m
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.5ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー18', 'タイトル18', '本文18', '2021-01-15 02:28:18.238601', '2021-01-15 02:28:18.238601')[0m
+  [1m[36mTRANSACTION (21.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー19', 'タイトル19', '本文19', '2021-01-15 02:28:18.275467', '2021-01-15 02:28:18.275467')[0m
+  [1m[36mTRANSACTION (9.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.6ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー20', 'タイトル20', '本文20', '2021-01-15 02:28:18.304788', '2021-01-15 02:28:18.304788')[0m
+  [1m[36mTRANSACTION (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー21', 'タイトル21', '本文21', '2021-01-15 02:28:18.331302', '2021-01-15 02:28:18.331302')[0m
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (2.2ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー22', 'タイトル22', '本文22', '2021-01-15 02:28:18.362969', '2021-01-15 02:28:18.362969')[0m
+  [1m[36mTRANSACTION (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.3ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー23', 'タイトル23', '本文23', '2021-01-15 02:28:18.387786', '2021-01-15 02:28:18.387786')[0m
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.4ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー24', 'タイトル24', '本文24', '2021-01-15 02:28:18.407661', '2021-01-15 02:28:18.407661')[0m
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー25', 'タイトル25', '本文25', '2021-01-15 02:28:18.431767', '2021-01-15 02:28:18.431767')[0m
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー26', 'タイトル26', '本文26', '2021-01-15 02:28:18.447241', '2021-01-15 02:28:18.447241')[0m
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー27', 'タイトル27', '本文27', '2021-01-15 02:28:18.470343', '2021-01-15 02:28:18.470343')[0m
+  [1m[36mTRANSACTION (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.3ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー28', 'タイトル28', '本文28', '2021-01-15 02:28:18.498674', '2021-01-15 02:28:18.498674')[0m
+  [1m[36mTRANSACTION (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー29', 'タイトル29', '本文29', '2021-01-15 02:28:18.522513', '2021-01-15 02:28:18.522513')[0m
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.4ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー30', 'タイトル30', '本文30', '2021-01-15 02:28:18.546396', '2021-01-15 02:28:18.546396')[0m
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (2.3ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー31', 'タイトル31', '本文31', '2021-01-15 02:28:18.566365', '2021-01-15 02:28:18.566365')[0m
+  [1m[36mTRANSACTION (11.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.2ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー32', 'タイトル32', '本文32', '2021-01-15 02:28:18.601284', '2021-01-15 02:28:18.601284')[0m
+  [1m[36mTRANSACTION (9.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (3.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー33', 'タイトル33', '本文33', '2021-01-15 02:28:18.631684', '2021-01-15 02:28:18.631684')[0m
+  [1m[36mTRANSACTION (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (2.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー34', 'タイトル34', '本文34', '2021-01-15 02:28:18.658680', '2021-01-15 02:28:18.658680')[0m
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー35', 'タイトル35', '本文35', '2021-01-15 02:28:18.691653', '2021-01-15 02:28:18.691653')[0m
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (6.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー36', 'タイトル36', '本文36', '2021-01-15 02:28:18.713694', '2021-01-15 02:28:18.713694')[0m
+  [1m[36mTRANSACTION (20.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー37', 'タイトル37', '本文37', '2021-01-15 02:28:18.759413', '2021-01-15 02:28:18.759413')[0m
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (2.2ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー38', 'タイトル38', '本文38', '2021-01-15 02:28:18.795849', '2021-01-15 02:28:18.795849')[0m
+  [1m[36mTRANSACTION (26.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー39', 'タイトル39', '本文39', '2021-01-15 02:28:18.841093', '2021-01-15 02:28:18.841093')[0m
+  [1m[36mTRANSACTION (11.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー40', 'タイトル40', '本文40', '2021-01-15 02:28:18.878457', '2021-01-15 02:28:18.878457')[0m
+  [1m[36mTRANSACTION (15.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー41', 'タイトル41', '本文41', '2021-01-15 02:28:18.916600', '2021-01-15 02:28:18.916600')[0m
+  [1m[36mTRANSACTION (10.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.3ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー42', 'タイトル42', '本文42', '2021-01-15 02:28:18.948776', '2021-01-15 02:28:18.948776')[0m
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.5ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー43', 'タイトル43', '本文43', '2021-01-15 02:28:18.986764', '2021-01-15 02:28:18.986764')[0m
+  [1m[36mTRANSACTION (9.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー44', 'タイトル44', '本文44', '2021-01-15 02:28:19.017685', '2021-01-15 02:28:19.017685')[0m
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー45', 'タイトル45', '本文45', '2021-01-15 02:28:19.037030', '2021-01-15 02:28:19.037030')[0m
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー46', 'タイトル46', '本文46', '2021-01-15 02:28:19.055154', '2021-01-15 02:28:19.055154')[0m
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (1.1ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー47', 'タイトル47', '本文47', '2021-01-15 02:28:19.076481', '2021-01-15 02:28:19.076481')[0m
+  [1m[36mTRANSACTION (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.8ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー48', 'タイトル48', '本文48', '2021-01-15 02:28:19.104307', '2021-01-15 02:28:19.104307')[0m
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー49', 'タイトル49', '本文49', '2021-01-15 02:28:19.121945', '2021-01-15 02:28:19.121945')[0m
+  [1m[36mTRANSACTION (13.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBoard Create (0.7ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('ユーザー50', 'タイトル50', '本文50', '2021-01-15 02:28:19.149760', '2021-01-15 02:28:19.149760')[0m
+  [1m[36mTRANSACTION (6.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:28:25 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 45.8ms | Allocations: 11023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 107.4ms | Allocations: 17545)
+Completed 200 OK in 111ms (Views: 110.3ms | ActiveRecord: 2.9ms | Allocations: 17953)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:43:31 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 47.0ms | Allocations: 9886)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2435.1ms | Allocations: 35097)
+Completed 200 OK in 2597ms (Views: 2479.4ms | ActiveRecord: 10.9ms | Allocations: 39147)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 02:43:59 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 61.4ms | Allocations: 1359)
+  Rendered boards/new.html.erb within layouts/application (Duration: 68.3ms | Allocations: 1730)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 157.6ms | Allocations: 8243)
+Completed 200 OK in 164ms (Views: 161.1ms | ActiveRecord: 0.0ms | Allocations: 8793)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 02:45:02 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"Don't ", "title"=>"repet", "body"=>"you're self"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+  [1m[36mBoard Create (13.4ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('Don\'t ', 'repet', 'you\'re self', '2021-01-15 02:45:02.867684', '2021-01-15 02:45:02.867684')[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (10.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+Redirected to http://localhost:3000/boards/55
+Completed 302 Found in 41ms (ActiveRecord: 25.5ms | Allocations: 3746)
+
+
+Started GET "/boards/55" for 172.31.0.1 at 2021-01-15 02:45:02 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 55 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:44:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 9.0ms | Allocations: 290)
+  Rendered boards/show.html.erb within layouts/application (Duration: 38.5ms | Allocations: 1233)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 98.0ms | Allocations: 7691)
+Completed 200 OK in 132ms (Views: 100.7ms | ActiveRecord: 1.4ms | Allocations: 11847)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:45:05 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 5569)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 12081)
+Completed 200 OK in 69ms (Views: 66.9ms | ActiveRecord: 1.3ms | Allocations: 12524)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:47:23 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (36.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 220.3ms | Allocations: 14807)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 289.9ms | Allocations: 21395)
+Completed 200 OK in 299ms (Views: 258.2ms | ActiveRecord: 38.6ms | Allocations: 22629)
+
+
+Started GET "/boards?page=3" for 172.31.0.1 at 2021-01-15 02:47:42 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 50[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 3266)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 69.1ms | Allocations: 9790)
+Completed 200 OK in 73ms (Views: 69.9ms | ActiveRecord: 2.2ms | Allocations: 10232)
+
+
+Started GET "/boards?page=2" for 172.31.0.1 at 2021-01-15 02:47:44 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 25[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (19.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 40.5ms | Allocations: 8229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.9ms | Allocations: 14739)
+Completed 200 OK in 94ms (Views: 72.3ms | ActiveRecord: 21.1ms | Allocations: 15170)
+
+
+Started GET "/boards?page=3" for 172.31.0.1 at 2021-01-15 02:47:46 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 50[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 2744)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.1ms | Allocations: 9254)
+Completed 200 OK in 78ms (Views: 75.0ms | ActiveRecord: 1.5ms | Allocations: 9683)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:47:48 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (12.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 31.3ms | Allocations: 7690)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 80.8ms | Allocations: 14200)
+Completed 200 OK in 85ms (Views: 70.5ms | ActiveRecord: 13.3ms | Allocations: 14631)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:53:03 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (8.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (13.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 144.3ms | Allocations: 15913)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 885.4ms | Allocations: 29747)
+Completed 200 OK in 944ms (Views: 868.7ms | ActiveRecord: 30.4ms | Allocations: 32774)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:55:02 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 25 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 39.6ms | Allocations: 9141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 100.3ms | Allocations: 15828)
+Completed 200 OK in 110ms (Views: 102.0ms | ActiveRecord: 3.8ms | Allocations: 17069)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 02:56:27 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (16.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 115.6ms | Allocations: 13540)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 750.2ms | Allocations: 27221)
+Completed 200 OK in 808ms (Views: 731.7ms | ActiveRecord: 32.6ms | Allocations: 30913)
+
+
+Started GET "/boards?page=6" for 172.31.0.1 at 2021-01-15 02:56:32 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 50[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 23.5ms | Allocations: 3903)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 88.2ms | Allocations: 10418)
+Completed 200 OK in 93ms (Views: 89.4ms | ActiveRecord: 1.8ms | Allocations: 10860)
+
+
+Started GET "/boards?page=5" for 172.31.0.1 at 2021-01-15 02:56:35 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 40[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (7.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 28.0ms | Allocations: 6081)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 83.7ms | Allocations: 12593)
+Completed 200 OK in 90ms (Views: 79.1ms | ActiveRecord: 9.5ms | Allocations: 13035)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:21:12 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 16.3ms | Allocations: 1097)
+  Rendered boards/new.html.erb within layouts/application (Duration: 22.7ms | Allocations: 1463)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 77.7ms | Allocations: 8121)
+Completed 200 OK in 99ms (Views: 82.6ms | ActiveRecord: 1.0ms | Allocations: 12806)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 03:21:34 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"mono", "title"=>"eye", "body"=>"mono-eyes"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+  [1m[36mBoard Create (1.9ms)[0m  [1m[32mINSERT INTO `boards` (`name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('mono', 'eye', 'mono-eyes', '2021-01-15 03:21:34.715048', '2021-01-15 03:21:34.715048')[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/concerns/boards_controller.rb:14:in `create'
+Redirected to http://localhost:3000/boards/56
+Completed 302 Found in 24ms (ActiveRecord: 8.2ms | Allocations: 3709)
+
+
+Started GET "/boards/56" for 172.31.0.1 at 2021-01-15 03:21:34 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mBoard Load (1.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 56 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:45:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 4.2ms | Allocations: 290)
+  Rendered boards/show.html.erb within layouts/application (Duration: 12.4ms | Allocations: 895)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 80.8ms | Allocations: 8090)
+Completed 200 OK in 95ms (Views: 83.5ms | ActiveRecord: 1.9ms | Allocations: 9609)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 03:21:38 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (19.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 57.3ms | Allocations: 7541)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 100.8ms | Allocations: 14054)
+Completed 200 OK in 106ms (Views: 83.0ms | ActiveRecord: 20.5ms | Allocations: 14617)
+
+
+Started GET "/boards?page=6" for 172.31.0.1 at 2021-01-15 03:21:39 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 50[0m
+  ↳ app/views/boards/index.html.erb:21
+  Rendered boards/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 4076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 80.8ms | Allocations: 10591)
+Completed 200 OK in 85ms (Views: 81.7ms | ActiveRecord: 2.3ms | Allocations: 11033)
+
+
+Started GET "/boards/56" for 172.31.0.1 at 2021-01-15 03:21:44 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 56 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:45:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 0.5ms | Allocations: 143)
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 319)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.5ms | Allocations: 6839)
+Completed 200 OK in 64ms (Views: 57.9ms | ActiveRecord: 1.4ms | Allocations: 7817)
+
+
+Started GET "/boards/56/edit" for 172.31.0.1 at 2021-01-15 03:21:47 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 56 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:45:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.5ms | Allocations: 472)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 8.3ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.7ms | Allocations: 7229)
+Completed 200 OK in 66ms (Views: 61.0ms | ActiveRecord: 1.2ms | Allocations: 8335)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 03:21:52 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:21
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:36
+  Rendered boards/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 5459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.0ms | Allocations: 11970)
+Completed 200 OK in 68ms (Views: 63.7ms | ActiveRecord: 3.7ms | Allocations: 12404)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 03:29:03 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (11.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 75.0ms | Allocations: 10861)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 146.5ms | Allocations: 17518)
+Completed 200 OK in 162ms (Views: 152.2ms | ActiveRecord: 16.8ms | Allocations: 19087)
+
+
+Started DELETE "/boards/5" for 172.31.0.1 at 2021-01-15 03:29:08 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mBoard Load (1.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:45:in `set_target_board'
+  [1m[36mBoard Destroy (10.8ms)[0m  [1m[31mDELETE FROM `boards` WHERE `boards`.`id` = 5[0m
+  ↳ app/controllers/concerns/boards_controller.rb:33:in `destroy'
+Redirected to http://localhost:3000/boards
+Completed 302 Found in 29ms (ActiveRecord: 12.5ms | Allocations: 2811)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 03:29:08 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 5845)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 12705)
+Completed 200 OK in 79ms (Views: 70.0ms | ActiveRecord: 7.8ms | Allocations: 13443)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:47:54 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 1168)
+
+
+  
+SyntaxError (/app/app/models/board.rb:2: syntax error, unexpected ':', expecting `end'
+  validates: :name, presesnce: true, leng...
+           ^
+/app/app/models/board.rb:2: Can't assign to true
+...lidates: :name, presesnce: true, length: { maximum: 10}
+...                           ^~~~
+/app/app/models/board.rb:3: syntax error, unexpected ':', expecting `end'
+  validates: :title, presesnce: true, len...
+           ^
+/app/app/models/board.rb:3: Can't assign to true
+...idates: :title, presesnce: true, length: { maximum: 30}
+...                           ^~~~
+/app/app/models/board.rb:4: syntax error, unexpected ':', expecting `end'
+  validates: :body, presesnce: true, leng...
+           ^
+/app/app/models/board.rb:4: Can't assign to true
+...lidates: :body, presesnce: true, length: { maximum: 1000}
+...                           ^~~~
+):
+  
+app/models/board.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:2: Can't assign to true
+app/models/board.rb:3: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:3: Can't assign to true
+app/models/board.rb:4: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:4: Can't assign to true
+app/models/board.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:2: Can't assign to true
+app/models/board.rb:3: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:3: Can't assign to true
+app/models/board.rb:4: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:4: Can't assign to true
+app/models/board.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:2: Can't assign to true
+app/models/board.rb:3: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:3: Can't assign to true
+app/models/board.rb:4: syntax error, unexpected ':', expecting `end'
+app/models/board.rb:4: Can't assign to true
+app/controllers/concerns/boards_controller.rb:10:in `new'
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:49:04 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+Completed 500 Internal Server Error in 23ms (Allocations: 1192)
+
+
+  
+ArgumentError (Unknown validator: 'PresesnceValidator'):
+  
+app/models/board.rb:2:in `<class:Board>'
+app/models/board.rb:1:in `<main>'
+app/controllers/concerns/boards_controller.rb:10:in `new'
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:50:01 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+Completed 500 Internal Server Error in 23ms (Allocations: 1184)
+
+
+  
+ArgumentError (Unknown validator: 'PresesnceValidator'):
+  
+app/models/board.rb:2:in `<class:Board>'
+app/models/board.rb:1:in `<main>'
+app/controllers/concerns/boards_controller.rb:10:in `new'
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:51:04 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 6.0ms | Allocations: 822)
+  Rendered boards/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1184)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.9ms | Allocations: 7841)
+Completed 200 OK in 117ms (Views: 84.0ms | ActiveRecord: 1.1ms | Allocations: 12821)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 03:51:09 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"", "title"=>"", "body"=>""}, "commit"=>"保存"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+  
+NoMethodError (undefined method `full' for #<ActiveModel::Errors:0x00007ff92c987380>):
+  
+app/controllers/concerns/boards_controller.rb:21:in `create'
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 03:54:09 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (12.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 74.7ms | Allocations: 10742)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 144.8ms | Allocations: 17227)
+Completed 200 OK in 163ms (Views: 121.0ms | ActiveRecord: 27.5ms | Allocations: 18485)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:54:12 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.8ms | Allocations: 445)
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 7080)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.0ms | Allocations: 7494)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 03:54:13 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"", "title"=>"", "body"=>""}, "commit"=>"保存"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2329)
+
+
+  
+NoMethodError (undefined method `full' for #<ActiveModel::Errors:0x00007ff938065408>):
+  
+app/controllers/concerns/boards_controller.rb:21:in `create'
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 03:55:28 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (10.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 47.5ms | Allocations: 9050)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 130.4ms | Allocations: 15534)
+Completed 200 OK in 144ms (Views: 113.1ms | ActiveRecord: 21.3ms | Allocations: 16677)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:55:30 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.5ms | Allocations: 445)
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 567)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 82.0ms | Allocations: 7077)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms | Allocations: 7490)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 03:55:31 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"", "title"=>"", "body"=>""}, "commit"=>"保存"}
+Redirected to http://localhost:3000/boards/new
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms | Allocations: 2360)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 03:55:31 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 0.9ms | Allocations: 463)
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 584)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 7094)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.0ms | Allocations: 7548)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 09:02:29 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (17.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 60.7ms | Allocations: 5754)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 210.4ms | Allocations: 12275)
+Completed 200 OK in 221ms (Views: 218.9ms | ActiveRecord: 24.4ms | Allocations: 12709)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 09:04:15 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 0.9ms | Allocations: 439)
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 560)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 7070)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms | Allocations: 7484)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 09:04:17 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"", "title"=>"", "body"=>""}, "commit"=>"保存"}
+Redirected to http://localhost:3000/boards/new
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 2075)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 09:04:17 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.3ms | Allocations: 458)
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 7098)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.0ms | Allocations: 7549)
+
+
+Started GET "/boards/" for 172.31.0.1 at 2021-01-15 09:21:04 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (4.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (20.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 2391.2ms | Allocations: 219609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5056.6ms | Allocations: 245665)
+Completed 200 OK in 5281ms (Views: 5095.6ms | ActiveRecord: 32.6ms | Allocations: 249985)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 09:21:15 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 50.2ms | Allocations: 1444)
+  Rendered boards/new.html.erb within layouts/application (Duration: 57.3ms | Allocations: 1809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 127.2ms | Allocations: 8331)
+Completed 200 OK in 132ms (Views: 130.6ms | ActiveRecord: 0.0ms | Allocations: 8893)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 09:21:17 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"", "title"=>"", "body"=>""}, "commit"=>"保存"}
+Redirected to http://localhost:3000/boards/new
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 2507)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 09:21:17 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 0.9ms | Allocations: 464)
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 585)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 7097)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms | Allocations: 7554)
+
+
+Started POST "/boards" for 172.31.0.1 at 2021-01-15 09:24:05 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"", "title"=>"", "body"=>""}, "commit"=>"保存"}
+Redirected to http://localhost:3000/boards/new
+Completed 302 Found in 480ms (ActiveRecord: 7.9ms | Allocations: 90795)
+
+
+Started GET "/boards/new" for 172.31.0.1 at 2021-01-15 09:24:06 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 1.0ms | Allocations: 468)
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 7114)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms | Allocations: 7680)
+
+
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT GET_LOCK('5277929974492897470', 0)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateComments (20210115095039)
+  [1m[35m (158.1ms)[0m  [1m[35mCREATE TABLE `comments` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `board_id` bigint NOT NULL, `name` varchar(255) NOT NULL, `comment` text NOT NULL, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_comments_on_board_id` (`board_id`), CONSTRAINT `fk_rails_9510ce0f70`
+FOREIGN KEY (`board_id`)
+  REFERENCES `boards` (`id`)
+)[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (3.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210115095039')[0m
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (8.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 10:45:52 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (26.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 2743.2ms | Allocations: 219328)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7945.4ms | Allocations: 315120)
+Completed 200 OK in 8148ms (Views: 7960.0ms | ActiveRecord: 36.6ms | Allocations: 320811)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-15 10:46:05 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (2.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:54:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 6.5ms | Allocations: 303)
+  Rendered boards/show.html.erb within layouts/application (Duration: 36.6ms | Allocations: 974)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 122.2ms | Allocations: 7496)
+Completed 200 OK in 652ms (Views: 126.2ms | ActiveRecord: 6.9ms | Allocations: 27506)
+
+
+Started GET "/boards/1" for 172.31.0.1 at 2021-01-15 10:47:24 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:54:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 1.0ms | Allocations: 158)
+  Rendered boards/show.html.erb within layouts/application (Duration: 4.5ms | Allocations: 337)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 91.0ms | Allocations: 6845)
+Completed 200 OK in 117ms (Views: 95.4ms | ActiveRecord: 1.4ms | Allocations: 12241)
+
+
+Started GET "/boards/1/edit" for 172.31.0.1 at 2021-01-15 11:13:53 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:53:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/_form.html.erb (Duration: 46.1ms | Allocations: 1570)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 56.0ms | Allocations: 2072)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 942.1ms | Allocations: 16115)
+Completed 200 OK in 1032ms (Views: 959.0ms | ActiveRecord: 7.1ms | Allocations: 24723)
+
+
+Started GET "/boards" for 172.31.0.1 at 2021-01-15 11:13:57 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:24
+  [1m[35m (10.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:39
+  Rendered boards/index.html.erb within layouts/application (Duration: 653.1ms | Allocations: 95240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 719.2ms | Allocations: 101824)
+Completed 200 OK in 725ms (Views: 711.2ms | ActiveRecord: 11.9ms | Allocations: 102407)
+
+
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-15 11:15:13 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:53:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 23.7ms | Allocations: 308)
+  Rendered boards/_comment_form.html.erb (Duration: 19.1ms | Allocations: 1930)
+  Rendered boards/show.html.erb within layouts/application (Duration: 53.2ms | Allocations: 3045)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 3110)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 5.9ms | Allocations: 12448)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <div class="p-comment__formBox">
+    3:   <p class="p-comment__formTitle">コメント記入</p>
+    4:   <%= form_for comment do |f| %>
+    5:     <%# ユーザー操作ができないように隠しているがboard_idも送信して対応情報もデータベースに記録している %>
+    6:     <%= f.hidden_field :board_id %>
+    7:     <div class="form-group">
+  
+app/views/boards/_comment_form.html.erb:4
+app/views/boards/show.html.erb:14
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-15 11:15:42 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:53:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 2.6ms | Allocations: 271)
+  Rendered boards/_comment_form.html.erb (Duration: 4.4ms | Allocations: 1343)
+  Rendered boards/show.html.erb within layouts/application (Duration: 15.7ms | Allocations: 2286)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 2351)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.2ms | Allocations: 4304)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <div class="p-comment__formBox">
+    3:   <p class="p-comment__formTitle">コメント記入</p>
+    4:   <%= form_for comment do |f| %>
+    5: 
+    6:     <%= f.hidden_field :board_id %>
+    7:     <div class="form-group">
+  
+app/views/boards/_comment_form.html.erb:4
+app/views/boards/show.html.erb:14
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-15 11:15:58 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:53:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 2.5ms | Allocations: 271)
+  Rendered boards/_comment_form.html.erb (Duration: 3.8ms | Allocations: 1357)
+  Rendered boards/show.html.erb within layouts/application (Duration: 12.6ms | Allocations: 2300)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 2364)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.6ms | Allocations: 4297)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <div class="p-comment__formBox">
+    3:   <p class="p-comment__formTitle">コメント記入</p>
+    4:   <%= form_for comment do |f| %>
+    5:     <%# ユーザー操作ができないように隠しているがboard_idも送信して対応情報もデータベースに記録している %>
+    6:     <%= f.hidden_field :board_id %>
+    7:     <div class="form-group">
+  
+app/views/boards/_comment_form.html.erb:4
+app/views/boards/show.html.erb:14
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-15 11:19:53 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:53:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 1.3ms | Allocations: 154)
+  Rendered boards/_comment_form.html.erb (Duration: 18.0ms | Allocations: 536)
+  Rendered boards/show.html.erb within layouts/application (Duration: 25.0ms | Allocations: 964)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 103.8ms | Allocations: 7656)
+Completed 200 OK in 159ms (Views: 108.5ms | ActiveRecord: 15.6ms | Allocations: 16900)
+
+
+Started GET "/boards/2" for 172.31.0.1 at 2021-01-15 11:26:18 +0000
+Cannot render console from 172.31.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/concerns/boards_controller.rb:53:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/_board.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered boards/_comment_form.html.erb (Duration: 1.2ms | Allocations: 390)
+  Rendered boards/show.html.erb within layouts/application (Duration: 4.9ms | Allocations: 770)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3842.7ms | Allocations: 64111)
+Completed 200 OK in 3857ms (Views: 3846.6ms | ActiveRecord: 2.6ms | Allocations: 65515)
+
+
