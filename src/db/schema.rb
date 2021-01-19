@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_16_072835) do
+ActiveRecord::Schema.define(version: 2021_01_19_023552) do
 
   create_table "board_tag_relations", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.bigint "board_id", null: false
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 2021_01_16_072835) do
     t.boolean "admin", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.date "birthday"
   end
 
   add_foreign_key "board_tag_relations", "boards"

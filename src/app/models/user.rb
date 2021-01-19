@@ -5,6 +5,7 @@
 #  id              :bigint           not null, primary key
 #  activated       :boolean          default(FALSE), not null
 #  admin           :boolean          default(FALSE), not null
+#  birthday        :date
 #  email           :string(255)      not null
 #  name            :string(255)      not null
 #  password_digest :string(255)      not null
@@ -24,4 +25,9 @@ class User < ApplicationRecord
   }
   validates :password,
     length: { minimum: 8 }
+
+  def age
+    now = Time.zone.now
+    (now.strftime('%Y%m%d').to_i - birthday.strftime('%Y%m%d').to_i) / 10000
+  end
 end

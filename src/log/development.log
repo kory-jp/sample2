@@ -12969,3 +12969,2197 @@ Processing by BoardsController#index as HTML
 Completed 200 OK in 212ms (Views: 196.8ms | ActiveRecord: 30.2ms | Allocations: 53952)
 
 
+Started GET "/boards" for 192.168.16.1 at 2021-01-19 01:07:42 +0000
+Cannot render console from 192.168.16.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (2.9ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (2.8ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (17.3ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 88.7ms | Allocations: 35133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 179.4ms | Allocations: 42007)
+Completed 200 OK in 184ms (Views: 182.8ms | ActiveRecord: 25.1ms | Allocations: 42457)
+
+
+Started GET "/boards" for 192.168.16.1 at 2021-01-19 01:07:44 +0000
+Cannot render console from 192.168.16.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (2.6ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (2.6ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (13.3ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 65.7ms | Allocations: 19783)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.9ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 127.3ms | Allocations: 26742)
+Completed 200 OK in 133ms (Views: 112.6ms | ActiveRecord: 18.4ms | Allocations: 27190)
+
+
+Started GET "/users/new" for 192.168.16.1 at 2021-01-19 01:07:48 +0000
+Cannot render console from 192.168.16.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 2.1ms | Allocations: 179)
+  Rendered users/_form.html.erb (Duration: 9.7ms | Allocations: 1106)
+  Rendered users/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1407)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 72.5ms | Allocations: 8653)
+Completed 200 OK in 100ms (Views: 79.5ms | ActiveRecord: 0.0ms | Allocations: 13808)
+
+
+Started POST "/users" for 192.168.16.1 at 2021-01-19 01:08:02 +0000
+Cannot render console from 192.168.16.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#create as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+                  "user"[0;37m => [0m{
+                         "name"[0;37m => [0m[0;33m"abc"[0m,
+                     "password"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+        "password_confirmation"[0;37m => [0m[0;33m"[FILTERED]"[0m
+    },
+                "commit"[0;37m => [0m[0;33m"作成"[0m
+}
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35m
+	BEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (1.7ms)[0m  [1m[34m
+	SELECT
+		1 AS one
+	FROM
+		`users`
+	WHERE
+		`users`.`name` = 'abc' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`users` (
+			`name`
+			,`password_digest`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'abc'
+		,'$2a$12$nFgW7cdhBLlPmKKNxUH5p.8TMgWZduUKO20FkL5vH0lmGEgTpyP2y'
+		,'2021-01-19 01:08:02.950500'
+		,'2021-01-19 01:08:02.950500'
+	)[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[31m
+	ROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 348ms (ActiveRecord: 5.4ms | Allocations: 28011)
+
+
+  
+ActiveRecord::NotNullViolation (Mysql2::Error: Field 'email' doesn't have a default value):
+  
+app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (14.2ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_development` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (38.4ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (20.2ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (1.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (50.1ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (20.3ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (4.2ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (98.9ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (5.9ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (114.9ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.6ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (69.1ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (2.9ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (64.6ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.3ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (62.2ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (200.9ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (235.8ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (192.8ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (60.4ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (2.4ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (6.6ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210116072835)[0m
+  [1m[35m (8.0ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+;
+[0m
+  [1m[35m (65.7ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 02:20:47.921068'
+		,'2021-01-19 02:20:47.921068'
+	)[0m
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.8ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 02:20:47.966569'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'ecdd39d243d219ffaa41d77be4a990c31ef80df7'
+		,'2021-01-19 02:20:48.003379'
+		,'2021-01-19 02:20:48.003379'
+	)[0m
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (3.2ms)[0m  [1m[34m
+	SELECT
+		GET_LOCK (
+			'5277929974492897470'
+			,0
+		)[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Migrating to AddBirthdayToUser (20210119023552)
+  [1m[35m (35.7ms)[0m  [1m[35m
+	ALTER TABLE
+	`users` ADD `birthday` DATE[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (`version`)
+	VALUES ('20210119023552')[0m
+  [1m[36mTRANSACTION (8.3ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (2.9ms)[0m  [1m[34m
+	SELECT
+		RELEASE_LOCK ('5277929974492897470')[0m
+  [1m[35m (1.2ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (194.4ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (26.3ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (5.5ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (132.6ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (4.2ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (54.4ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.8ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (57.5ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.2ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (46.8ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.6ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (48.3ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,`birthday` DATE
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (157.5ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (176.1ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (167.7ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (95.5ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (1.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (5.0ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210119023552)[0m
+  [1m[35m (9.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+	,(20210116072835)
+;
+[0m
+  [1m[35m (58.6ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 02:49:00.230190'
+		,'2021-01-19 02:49:00.230190'
+	)[0m
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.9ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 02:49:00.270320'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'c041eef26fc37f7e3d8448a66ee82f83a4f0075e'
+		,'2021-01-19 02:49:00.314823'
+		,'2021-01-19 02:49:00.314823'
+	)[0m
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (178.5ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (16.4ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (3.3ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (83.2ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.1ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (45.6ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.6ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (82.5ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.6ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (69.3ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (5.3ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (113.0ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,`birthday` DATE
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (223.2ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (163.0ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (168.1ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (75.2ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (2.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (10.2ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210119023552)[0m
+  [1m[35m (12.0ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+	,(20210116072835)
+;
+[0m
+  [1m[35m (55.0ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 03:16:35.941792'
+		,'2021-01-19 03:16:35.941792'
+	)[0m
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.8ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 03:16:35.987233'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'c041eef26fc37f7e3d8448a66ee82f83a4f0075e'
+		,'2021-01-19 03:16:36.032432'
+		,'2021-01-19 03:16:36.032432'
+	)[0m
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (174.5ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (12.5ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (4.0ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (71.1ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (4.8ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (103.8ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (5.0ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (95.9ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (11.1ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (65.1ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (4.4ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (54.4ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,`birthday` DATE
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (157.3ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (176.6ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (177.2ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (65.3ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (1.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (7.0ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210119023552)[0m
+  [1m[35m (9.3ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+	,(20210116072835)
+;
+[0m
+  [1m[35m (68.2ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 03:28:36.995839'
+		,'2021-01-19 03:28:36.995839'
+	)[0m
+  [1m[36mTRANSACTION (11.8ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.8ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 03:28:37.048062'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'c041eef26fc37f7e3d8448a66ee82f83a4f0075e'
+		,'2021-01-19 03:28:37.086798'
+		,'2021-01-19 03:28:37.086798'
+	)[0m
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (186.2ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (28.5ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (9.1ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (142.7ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.2ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (66.7ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (4.0ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (93.3ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (4.5ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (71.3ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.3ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (66.6ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,`birthday` DATE
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (171.1ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (167.4ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (144.5ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (85.5ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (2.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (6.0ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210119023552)[0m
+  [1m[35m (12.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+	,(20210116072835)
+;
+[0m
+  [1m[35m (62.2ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 03:29:27.179309'
+		,'2021-01-19 03:29:27.179309'
+	)[0m
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.9ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 03:29:27.223433'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'c041eef26fc37f7e3d8448a66ee82f83a4f0075e'
+		,'2021-01-19 03:29:27.273897'
+		,'2021-01-19 03:29:27.273897'
+	)[0m
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (193.5ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (16.4ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (3.2ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (88.6ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.4ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (59.0ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (4.5ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (76.7ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.4ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (46.3ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.1ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (46.0ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,`birthday` DATE
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (180.9ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (283.7ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (204.3ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (71.4ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (1.9ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (11.1ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210119023552)[0m
+  [1m[35m (8.2ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+	,(20210116072835)
+;
+[0m
+  [1m[35m (47.9ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 10:16:28.277693'
+		,'2021-01-19 10:16:28.277693'
+	)[0m
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.9ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 10:16:28.329115'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (7.2ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'c041eef26fc37f7e3d8448a66ee82f83a4f0075e'
+		,'2021-01-19 10:16:28.370697'
+		,'2021-01-19 10:16:28.370697'
+	)[0m
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (Duration: 17.1ms | Allocations: 269)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 356)
+Completed 200 OK in 246ms (Views: 94.3ms | ActiveRecord: 5.5ms | Allocations: 29148)
+
+
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 61)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 147)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 469)
+
+
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 61)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 147)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 467)
+
+
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`.`value`
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (158.3ms)[0m  [1m[35m
+	DROP
+	DATABASE IF EXISTS `app_test`[0m
+  [1m[35m (16.7ms)[0m  [1m[35m
+	CREATE
+	DATABASE `app_test` DEFAULT CHARACTER
+SET
+	`utf8mb4`[0m
+  [1m[35m (4.5ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `board_tag_relations` CASCADE[0m
+  [1m[35m (140.4ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`board_tag_relations` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`tag_id` bigint NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_board_tag_relations_on_board_id` (`board_id`)
+			,INDEX `index_board_tag_relations_on_tag_id` (`tag_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.8ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `boards` CASCADE[0m
+  [1m[35m (69.7ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`boards` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255)
+			,`title` VARCHAR (255)
+			,`body` text
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (2.8ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `comments` CASCADE[0m
+  [1m[35m (77.5ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`comments` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`board_id` bigint NOT NULL
+			,`name` VARCHAR (255) NOT NULL
+			,`comment` text NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,INDEX `index_comments_on_board_id` (`board_id`)
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.6ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `tags` CASCADE[0m
+  [1m[35m (47.2ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`tags` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (3.4ms)[0m  [1m[35m
+	DROP
+	TABLE
+		IF EXISTS `users` CASCADE[0m
+  [1m[35m (54.8ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`users` (
+			`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY
+			,`name` VARCHAR (255) NOT NULL
+			,`email` VARCHAR (255) NOT NULL
+			,`password_digest` VARCHAR (255) NOT NULL
+			,`activated` tinyint (1) DEFAULT FALSE NOT NULL
+			,`admin` tinyint (1) DEFAULT FALSE NOT NULL
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+			,`birthday` DATE
+		) DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci[0m
+  [1m[35m (183.9ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_1eb07359f9` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (160.9ms)[0m  [1m[35m
+	ALTER TABLE
+	`board_tag_relations` ADD CONSTRAINT `fk_rails_88d29ca25f` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`)
+[0m
+  [1m[35m (177.7ms)[0m  [1m[35m
+	ALTER TABLE
+	`comments` ADD CONSTRAINT `fk_rails_9510ce0f70` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`)
+[0m
+  [1m[35m (77.7ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`schema_migrations` (
+			`version` VARCHAR (255) NOT NULL PRIMARY KEY
+		)[0m
+  [1m[35m (2.0ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (4.5ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210119023552)[0m
+  [1m[35m (8.5ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (version)
+	VALUES (20210112102547)
+	,(20210113111647)
+	,(20210115095039)
+	,(20210116072431)
+	,(20210116072835)
+;
+[0m
+  [1m[35m (56.1ms)[0m  [1m[35m
+	CREATE
+	TABLE
+		`ar_internal_metadata` (
+			`key` VARCHAR (255) NOT NULL PRIMARY KEY
+			,`value` VARCHAR (255)
+			,`created_at` datetime (6) NOT NULL
+			,`updated_at` datetime (6) NOT NULL
+		)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'environment'
+		,'development'
+		,'2021-01-19 10:38:22.471744'
+		,'2021-01-19 10:38:22.471744'
+	)[0m
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.7ms)[0m  [1m[33m
+	UPDATE
+		`ar_internal_metadata`
+	SET
+		`ar_internal_metadata`.`value` = 'test'
+		,`ar_internal_metadata`.`updated_at` = '2021-01-19 10:38:22.528724'
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`ar_internal_metadata` (
+			`key`
+			,`value`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'schema_sha1'
+		,'c041eef26fc37f7e3d8448a66ee82f83a4f0075e'
+		,'2021-01-19 10:38:22.564186'
+		,'2021-01-19 10:38:22.564186'
+	)[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 163)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 250)
+Completed 200 OK in 71ms (Views: 18.6ms | ActiveRecord: 5.1ms | Allocations: 28013)
+
+
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 61)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 147)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 467)
+
+
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 61)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 147)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 467)
+
+
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[35m (7.0ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`users`[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31m
+	ROLLBACK[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	BEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: 
+{
+    "user"[0;37m => [0m{
+                         "name"[0;37m => [0m[0;33m"user"[0m,
+                     "password"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+        "password_confirmation"[0;37m => [0m[0;33m"[FILTERED]"[0m
+    }
+}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35m
+	SAVEPOINT active_record_1[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34m
+	SELECT
+		1 AS one
+	FROM
+		`users`
+	WHERE
+		`users`.`name` = 'user' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (2.4ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`users` (
+			`name`
+			,`password_digest`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		'user'
+		,'$2a$12$AN6VdbJrMR//gBfMnsrVjOIyp2BhDBUP/v34AilxtxlESLduXqVKu'
+		,'2021-01-19 10:38:23.335031'
+		,'2021-01-19 10:38:23.335031'
+	)[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31m
+	ROLLBACK TO SAVEPOINT active_record_1[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 4.5ms | Allocations: 32099)
+
+
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31m
+	ROLLBACK[0m

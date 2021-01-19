@@ -1,7 +1,7 @@
 <%= render 'shared/error_messages' %>
 <div class="p-comment__formBox">
   <p class="p-comment__formTitle">コメント記入</p>
-  <%= form_for comment do |f| %>
+  <%= form_with model: comment do |f| %>
     <%# ユーザー操作ができないように隠しているがboard_idも送信して対応情報もデータベースに記録している %>
     <%= f.hidden_field :board_id %>
     <div class="form-group">
