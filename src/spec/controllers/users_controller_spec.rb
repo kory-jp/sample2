@@ -29,7 +29,7 @@ RSpec.describe UsersController, type: :controller do
       end
 
       it 'ユーザーが一人増えていること' do
-        expect { post :createm, params: params }.to change(User, :count).by(1)
+        expect { post :create, params: params }.to change(User, :count).by(1)
       end
 
       it 'マイページにリダイレクトされること' do
