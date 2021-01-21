@@ -33,7 +33,7 @@ RSpec.describe BoardsController, type: :controller do
     end
 
     it '新規作成掲示板へリダイレクトされること' do
-      expect(post :create, params: params).to redirect_to(show)
+      expect(post :create, params: params).to redirect_to(board)
     end
   end
 end
