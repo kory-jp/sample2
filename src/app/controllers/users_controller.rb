@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  # before_action :set_target_user, only: %i[me]
 
   def new
     @user = User.new(flash[:user])
@@ -24,7 +23,12 @@ class UsersController < ApplicationController
   end
 
   def me
-    @user = @current_user
+    @user = User.where(user_id: current_user.id)
+  end
+
+  def edit
+    # @user = User.find(params[:id])
+    @user = User.where(user_id: current_user.id)
   end
 
   private
@@ -32,9 +36,4 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
-
-  def set_target_user
-    @user = User.find(params[:id])
-  end
-
 end

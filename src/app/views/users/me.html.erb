@@ -1,24 +1,21 @@
-<h1><%= @user.name %>様のマイページ</h1>
+<h1><%= @current_user.name %>様のマイページ</h1>
+
+  <div class="ml-auto boards__linkBox">
+    <%= link_to '個人情報修正', edit_user_path(@user), class: 'btn btn-outline-dark' %>
+  </div>
 
 <h2>個人情報一覧</h2>
 
+<p>ユーザー名:</p>
+<%= @current_user.name%>
 
-<%= form_with model: @users do |f| %>
 
-  <div class="form-group">
-    <%= f.label :name, '名前' %>
-    <%= f.text_field :name, class: 'form-control' %>
-  </div>
+<p>メールアドレス:</p>
+<%= @current_user.email%>
 
-  <div class="form-group">
-    <%= f.label :email, 'メールアドレス' %>
-    <%= f.text_field :email, class: 'form-control' %>
-  </div>
 
-  <div class="form-group">
-    <%= f.label :password, 'パスワード' %>
-    <%= f.text_field :password, class: 'form-control' %>
-  </div>
 
-  <%= f.submit '保存', class: 'btn-primary' %>
-<% end %>
+
+
+
+
