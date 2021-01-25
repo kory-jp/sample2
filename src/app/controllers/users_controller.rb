@@ -23,12 +23,24 @@ class UsersController < ApplicationController
   end
 
   def me
-    @user = User.where(user_id: current_user.id)
+    @user = current_user
   end
 
   def edit
-    # @user = User.find(params[:id])
-    @user = User.where(user_id: current_user.id)
+    @user = current_user
+  end
+
+  def update
+    @user = User.find(params[:id])
+    if @user.update(user_params)
+      redirect_to user
+      binding.pry
+    else
+      redirect_to mypage_path, flash: {
+        user: @user,
+        error_messages: @user.errors.full_messages
+      }
+    end
   end
 
   private
