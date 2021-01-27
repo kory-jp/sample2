@@ -33,10 +33,9 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     if @user.update(user_params)
-      redirect_to user
-      binding.pry
+      redirect_to mypage_path
     else
-      redirect_to mypage_path, flash: {
+      redirect_to edit_user_path, flash: {
         user: @user,
         error_messages: @user.errors.full_messages
       }
