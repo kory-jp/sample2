@@ -83116,3 +83116,1878 @@ Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 18ms (ActiveRecord: 1.2ms | Allocations: 8919)
 
 
+Started GET "/boards/" for 192.168.80.1 at 2021-02-03 09:53:08 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/boards/" for 192.168.80.1 at 2021-02-03 09:53:08 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.2ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (6.6ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  [1m[36mUser Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 48ms (ActiveRecord: 2.7ms | Allocations: 38341)
+
+
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 95ms (ActiveRecord: 11.6ms | Allocations: 41886)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:08 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (2.6ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 15.4ms | Allocations: 1020)
+  Rendered home/index.html.erb within layouts/application (Duration: 27.2ms | Allocations: 1429)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 4.0ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 1015.9ms | Allocations: 18534)
+Completed 200 OK in 1071ms (Views: 1036.2ms | ActiveRecord: 2.6ms | Allocations: 29113)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 1.6ms | Allocations: 8924)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.9ms | Allocations: 303)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 394)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 79.4ms | Allocations: 7356)
+Completed 200 OK in 91ms (Views: 81.7ms | ActiveRecord: 1.1ms | Allocations: 16404)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:15 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 1.7ms | Allocations: 8927)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:15 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.8ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 7361)
+Completed 200 OK in 71ms (Views: 58.5ms | ActiveRecord: 1.0ms | Allocations: 16409)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:15 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 1.1ms | Allocations: 8924)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:15 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.9ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 7351)
+Completed 200 OK in 66ms (Views: 53.6ms | ActiveRecord: 0.9ms | Allocations: 16397)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:16 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.9ms | Allocations: 8908)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:16 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 1.1ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 60.0ms | Allocations: 7363)
+Completed 200 OK in 76ms (Views: 62.1ms | ActiveRecord: 1.0ms | Allocations: 16412)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:22 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 1.1ms | Allocations: 8911)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:22 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.8ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 7365)
+Completed 200 OK in 60ms (Views: 50.0ms | ActiveRecord: 1.3ms | Allocations: 16410)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:23 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 1.4ms | Allocations: 8908)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:23 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.9ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 76.2ms | Allocations: 7349)
+Completed 200 OK in 93ms (Views: 79.9ms | ActiveRecord: 0.9ms | Allocations: 16393)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 09:53:26 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.8ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 7363)
+Completed 200 OK in 71ms (Views: 58.0ms | ActiveRecord: 0.9ms | Allocations: 16414)
+
+
+Started POST "/login" for 192.168.80.1 at 2021-02-03 09:53:35 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#create as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+               "session"[0;37m => [0m{
+            "name"[0;37m => [0m[0;33m"user3"[0m,
+        "password"[0;37m => [0m[0;33m"[FILTERED]"[0m
+    },
+                "commit"[0;37m => [0m[0;33m"ログイン"[0m
+}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  [1m[36mUser Load (7.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`name` = 'user3' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/mypage
+Completed 302 Found in 373ms (ActiveRecord: 15.3ms | Allocations: 36500)
+
+
+Started GET "/mypage" for 192.168.80.1 at 2021-02-03 09:53:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#me as HTML
+  [1m[36mUser Load (2.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (Duration: 3.8ms | Allocations: 247)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 7633)
+Completed 200 OK in 93ms (Views: 65.9ms | ActiveRecord: 2.8ms | Allocations: 16909)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:53:37 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (9.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (9.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (10.9ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 750.4ms | Allocations: 157131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.0ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 819.8ms | Allocations: 164522)
+Completed 200 OK in 860ms (Views: 783.2ms | ActiveRecord: 42.5ms | Allocations: 175629)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 09:56:26 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/common_method.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (2.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (2.8ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 54.5ms | Allocations: 19798)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 117.0ms | Allocations: 26852)
+Completed 200 OK in 130ms (Views: 113.2ms | ActiveRecord: 7.9ms | Allocations: 34916)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:20:22 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (9.4ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 53.8ms | Allocations: 25480)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 101.8ms | Allocations: 32482)
+Completed 200 OK in 145ms (Views: 92.4ms | ActiveRecord: 15.2ms | Allocations: 63150)
+
+
+Started GET "/boards/6" for 192.168.80.1 at 2021-02-03 10:20:26 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (6.9ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 6[0m
+  ↳ app/views/boards/_board.html.erb:5
+  Rendered boards/_board.html.erb (Duration: 103.6ms | Allocations: 27606)
+  [1m[36mComment Load (11.0ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 6[0m
+  ↳ app/views/boards/show.html.erb:17
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 6.2ms | Allocations: 523)
+  Rendered shared/_error_messages.html.erb (Duration: 3.6ms | Allocations: 183)
+  Rendered comments/_form.html.erb (Duration: 18.3ms | Allocations: 1162)
+  Rendered boards/show.html.erb within layouts/application (Duration: 181.0ms | Allocations: 40041)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.8ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 243.2ms | Allocations: 47676)
+Completed 200 OK in 292ms (Views: 224.2ms | ActiveRecord: 30.1ms | Allocations: 87032)
+
+
+Started GET "/boards/6/edit" for 192.168.80.1 at 2021-02-03 10:20:29 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 48)
+  [1m[36mTag Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/_form.html.erb:22
+  [1m[35m (2.2ms)[0m  [1m[34m
+	SELECT
+		`tags`.`id`
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 6[0m
+  ↳ app/views/boards/_form.html.erb:25
+  Rendered boards/_form.html.erb (Duration: 45.6ms | Allocations: 22510)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 51.6ms | Allocations: 22869)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 107.7ms | Allocations: 29918)
+Completed 200 OK in 129ms (Views: 106.8ms | ActiveRecord: 6.4ms | Allocations: 45843)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:20:34 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (2.1ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 34.8ms | Allocations: 19796)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 88.4ms | Allocations: 26845)
+Completed 200 OK in 104ms (Views: 87.0ms | ActiveRecord: 6.0ms | Allocations: 34908)
+
+
+Started GET "/boards?page=11" for 192.168.80.1 at 2021-02-03 10:20:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"11"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (2.7ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 100[0m
+  ↳ app/views/boards/index.html.erb:34
+  Rendered boards/index.html.erb within layouts/application (Duration: 33.3ms | Allocations: 15154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.0ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 88.2ms | Allocations: 22206)
+Completed 200 OK in 102ms (Views: 86.8ms | ActiveRecord: 5.3ms | Allocations: 30263)
+
+
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-03 10:20:40 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 38)
+  [1m[36mTag Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/_form.html.erb:22
+  Rendered boards/_form.html.erb (Duration: 19.8ms | Allocations: 6117)
+  Rendered boards/new.html.erb within layouts/application (Duration: 24.6ms | Allocations: 6349)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 92.5ms | Allocations: 13393)
+Completed 200 OK in 105ms (Views: 93.4ms | ActiveRecord: 2.6ms | Allocations: 21550)
+
+
+Started POST "/boards" for 192.168.80.1 at 2021-02-03 10:20:54 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+                 "board"[0;37m => [0m{
+           "name"[0;37m => [0m[0;33m"bur"[0m,
+          "title"[0;37m => [0m[0;33m"cut"[0m,
+           "body"[0;37m => [0m[0;33m"xeu"[0m,
+        "tag_ids"[0;37m => [0m[
+            [1;37m[0] [0m[0;33m""[0m,
+            [1;37m[1] [0m[0;33m"1"[0m
+        ]
+    },
+                "commit"[0;37m => [0m[0;33m"保存"[0m
+}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mTag Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`
+	WHERE
+		`tags`.`id` = 1[0m
+  ↳ app/controllers/boards_controller.rb:18:in `create'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:22:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35m
+	BEGIN[0m
+  ↳ app/controllers/boards_controller.rb:22:in `create'
+  [1m[36mBoard Create (1.3ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`boards` (
+			`name`
+			,`title`
+			,`body`
+			,`created_at`
+			,`updated_at`
+			,`user_id`
+		)
+	VALUES (
+		'bur'
+		,'cut'
+		,'xeu'
+		,'2021-02-03 10:20:54.921677'
+		,'2021-02-03 10:20:54.921677'
+		,4
+	)[0m
+  ↳ app/controllers/boards_controller.rb:22:in `create'
+  [1m[36mBoardTagRelation Create (1.6ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`board_tag_relations` (
+			`board_id`
+			,`tag_id`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		151
+		,1
+		,'2021-02-03 10:20:54.937554'
+		,'2021-02-03 10:20:54.937554'
+	)[0m
+  ↳ app/controllers/boards_controller.rb:22:in `create'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35m
+	COMMIT[0m
+  ↳ app/controllers/boards_controller.rb:22:in `create'
+Redirected to http://localhost:3000/boards/151
+Completed 302 Found in 88ms (ActiveRecord: 15.5ms | Allocations: 69989)
+
+
+Started GET "/boards/151" for 192.168.80.1 at 2021-02-03 10:20:54 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 151[0m
+  ↳ app/views/boards/_board.html.erb:5
+  Rendered boards/_board.html.erb (Duration: 13.3ms | Allocations: 15901)
+  [1m[36mComment Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 151[0m
+  ↳ app/views/boards/show.html.erb:17
+  Rendered collection of templates [0 times] (Duration: 0.1ms | Allocations: 11)
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered comments/_form.html.erb (Duration: 2.3ms | Allocations: 486)
+  Rendered boards/show.html.erb within layouts/application (Duration: 29.1ms | Allocations: 24584)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 81.2ms | Allocations: 32605)
+Completed 200 OK in 101ms (Views: 80.9ms | ActiveRecord: 4.9ms | Allocations: 48489)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:20:57 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (8.3ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 46.3ms | Allocations: 19797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.0ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 107.2ms | Allocations: 27180)
+Completed 200 OK in 123ms (Views: 99.0ms | ActiveRecord: 12.3ms | Allocations: 35241)
+
+
+Started GET "/boards?page=11" for 192.168.80.1 at 2021-02-03 10:20:58 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"11"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 100[0m
+  ↳ app/views/boards/index.html.erb:34
+  Rendered boards/index.html.erb within layouts/application (Duration: 27.0ms | Allocations: 14847)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 82.6ms | Allocations: 21897)
+Completed 200 OK in 99ms (Views: 83.3ms | ActiveRecord: 4.8ms | Allocations: 29957)
+
+
+Started GET "/boards/151" for 192.168.80.1 at 2021-02-03 10:21:00 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 151[0m
+  ↳ app/views/boards/_board.html.erb:5
+  Rendered boards/_board.html.erb (Duration: 12.8ms | Allocations: 15904)
+  [1m[36mComment Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 151[0m
+  ↳ app/views/boards/show.html.erb:17
+  Rendered collection of templates [0 times] (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered comments/_form.html.erb (Duration: 2.8ms | Allocations: 485)
+  Rendered boards/show.html.erb within layouts/application (Duration: 29.2ms | Allocations: 24581)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.0ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 87.1ms | Allocations: 31620)
+Completed 200 OK in 113ms (Views: 88.1ms | ActiveRecord: 6.3ms | Allocations: 47494)
+
+
+Started GET "/boards/151/edit" for 192.168.80.1 at 2021-02-03 10:21:02 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 48)
+  [1m[36mTag Load (2.5ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/_form.html.erb:22
+  [1m[35m (2.2ms)[0m  [1m[34m
+	SELECT
+		`tags`.`id`
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 151[0m
+  ↳ app/views/boards/_form.html.erb:25
+  Rendered boards/_form.html.erb (Duration: 29.6ms | Allocations: 21676)
+  Rendered boards/edit.html.erb within layouts/application (Duration: 32.1ms | Allocations: 21797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 90.3ms | Allocations: 28849)
+Completed 200 OK in 114ms (Views: 89.1ms | ActiveRecord: 6.9ms | Allocations: 44705)
+
+
+Started PATCH "/boards/151" for 192.168.80.1 at 2021-02-03 10:21:10 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#update as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+                 "board"[0;37m => [0m{
+           "name"[0;37m => [0m[0;33m"bur-2"[0m,
+          "title"[0;37m => [0m[0;33m"cut-2"[0m,
+           "body"[0;37m => [0m[0;33m"xeu-2"[0m,
+        "tag_ids"[0;37m => [0m[
+            [1;37m[0] [0m[0;33m""[0m,
+            [1;37m[1] [0m[0;33m"1"[0m,
+            [1;37m[2] [0m[0;33m"2"[0m
+        ]
+    },
+                "commit"[0;37m => [0m[0;33m"保存"[0m,
+                    "id"[0;37m => [0m[0;33m"151"[0m
+}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35m
+	BEGIN[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+  [1m[36mTag Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`
+	WHERE
+		`tags`.`id` IN (
+			1
+			,2
+		)[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+  [1m[36mTag Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 151[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+  [1m[36mBoardTagRelation Create (1.4ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`board_tag_relations` (
+			`board_id`
+			,`tag_id`
+			,`created_at`
+			,`updated_at`
+		)
+	VALUES (
+		151
+		,2
+		,'2021-02-03 10:21:10.376905'
+		,'2021-02-03 10:21:10.376905'
+	)[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+  [1m[36mUser Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+  [1m[36mBoard Update (1.3ms)[0m  [1m[33m
+	UPDATE
+		`boards`
+	SET
+		`boards`.`name` = 'bur-2'
+		,`boards`.`title` = 'cut-2'
+		,`boards`.`body` = 'xeu-2'
+		,`boards`.`updated_at` = '2021-02-03 10:21:10.398628'
+	WHERE
+		`boards`.`id` = 151[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35m
+	COMMIT[0m
+  ↳ app/controllers/boards_controller.rb:50:in `update'
+Redirected to http://localhost:3000/boards/151
+Completed 302 Found in 101ms (ActiveRecord: 15.7ms | Allocations: 81622)
+
+
+Started GET "/boards/151" for 192.168.80.1 at 2021-02-03 10:21:10 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 151[0m
+  ↳ app/views/boards/_board.html.erb:5
+  Rendered boards/_board.html.erb (Duration: 13.3ms | Allocations: 15916)
+  [1m[36mComment Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 151[0m
+  ↳ app/views/boards/show.html.erb:17
+  Rendered collection of templates [0 times] (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/_error_messages.html.erb (Duration: 0.3ms | Allocations: 37)
+  Rendered comments/_form.html.erb (Duration: 2.7ms | Allocations: 485)
+  Rendered boards/show.html.erb within layouts/application (Duration: 28.7ms | Allocations: 24590)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.2ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 80.5ms | Allocations: 32022)
+Completed 200 OK in 99ms (Views: 79.9ms | ActiveRecord: 5.6ms | Allocations: 47900)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:21:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (2.3ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (16.0ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 51.2ms | Allocations: 19791)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 2.0ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 106.7ms | Allocations: 26845)
+Completed 200 OK in 120ms (Views: 90.3ms | ActiveRecord: 20.9ms | Allocations: 34905)
+
+
+Started GET "/boards?page=11" for 192.168.80.1 at 2021-02-03 10:21:15 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Parameters: {"page"=>"11"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (2.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 100[0m
+  ↳ app/views/boards/index.html.erb:34
+  Rendered boards/index.html.erb within layouts/application (Duration: 28.0ms | Allocations: 14847)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 86.5ms | Allocations: 21901)
+Completed 200 OK in 101ms (Views: 85.5ms | ActiveRecord: 5.1ms | Allocations: 29962)
+
+
+Started DELETE "/boards/151" for 192.168.80.1 at 2021-02-03 10:21:18 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#destroy as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+                    "id"[0;37m => [0m[0;33m"151"[0m
+}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35m
+	BEGIN[0m
+  ↳ app/controllers/boards_controller.rb:62:in `destroy'
+  [1m[36mComment Destroy (1.3ms)[0m  [1m[31m
+	DELETE
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 151[0m
+  ↳ app/controllers/boards_controller.rb:62:in `destroy'
+  [1m[36mBoardTagRelation Destroy (1.6ms)[0m  [1m[31m
+	DELETE
+	FROM
+		`board_tag_relations`
+	WHERE
+		`board_tag_relations`.`board_id` = 151[0m
+  ↳ app/controllers/boards_controller.rb:62:in `destroy'
+  [1m[36mBoard Destroy (3.3ms)[0m  [1m[31m
+	DELETE
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 151[0m
+  ↳ app/controllers/boards_controller.rb:62:in `destroy'
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[35m
+	COMMIT[0m
+  ↳ app/controllers/boards_controller.rb:62:in `destroy'
+Redirected to http://localhost:3000/boards
+Completed 302 Found in 78ms (ActiveRecord: 15.9ms | Allocations: 42217)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:21:18 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (8.0ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 41.3ms | Allocations: 20596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.8ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 98.2ms | Allocations: 27650)
+Completed 200 OK in 113ms (Views: 89.6ms | ActiveRecord: 12.3ms | Allocations: 35718)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:21:19 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (2.2ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 34.4ms | Allocations: 19791)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.4ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 95.8ms | Allocations: 26845)
+Completed 200 OK in 112ms (Views: 95.0ms | ActiveRecord: 6.6ms | Allocations: 34906)
+
+
+Started DELETE "/logout" for 192.168.80.1 at 2021-02-03 10:21:22 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.5ms | Allocations: 7960)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 10:21:22 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 1.2ms | Allocations: 307)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 7375)
+Completed 200 OK in 66ms (Views: 57.4ms | ActiveRecord: 1.0ms | Allocations: 16585)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:21:25 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 1.1ms | Allocations: 8903)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 10:21:25 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 1.0ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 7349)
+Completed 200 OK in 64ms (Views: 53.8ms | ActiveRecord: 1.1ms | Allocations: 16393)
+
+
+Started POST "/login" for 192.168.80.1 at 2021-02-03 10:21:33 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#create as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+               "session"[0;37m => [0m{
+            "name"[0;37m => [0m[0;33m"user3"[0m,
+        "password"[0;37m => [0m[0;33m"[FILTERED]"[0m
+    },
+                "commit"[0;37m => [0m[0;33m"ログイン"[0m
+}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`name` = 'user3' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/mypage
+Completed 302 Found in 322ms (ActiveRecord: 2.8ms | Allocations: 16965)
+
+
+Started GET "/mypage" for 192.168.80.1 at 2021-02-03 10:21:34 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#me as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.8ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | Allocations: 7132)
+Completed 200 OK in 71ms (Views: 57.0ms | ActiveRecord: 1.2ms | Allocations: 15826)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:21:35 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (17.5ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 53.5ms | Allocations: 19797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 1.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 107.7ms | Allocations: 26851)
+Completed 200 OK in 124ms (Views: 91.1ms | ActiveRecord: 21.9ms | Allocations: 34918)
+
+
+Started DELETE "/logout" for 192.168.80.1 at 2021-02-03 10:26:25 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 1.4ms | Allocations: 7906)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 10:26:25 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.7ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 7362)
+Completed 200 OK in 66ms (Views: 56.5ms | ActiveRecord: 1.1ms | Allocations: 16402)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:26:29 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 1.0ms | Allocations: 8903)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 10:26:29 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.7ms | Allocations: 300)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 7362)
+Completed 200 OK in 64ms (Views: 53.9ms | ActiveRecord: 1.1ms | Allocations: 16410)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:29:00 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (12.2ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 105.4ms | Allocations: 77780)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 156.1ms | Allocations: 84719)
+Completed 200 OK in 195ms (Views: 130.8ms | ActiveRecord: 34.1ms | Allocations: 101817)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:29:05 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (2.1ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (5.1ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 51.2ms | Allocations: 19794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 119.6ms | Allocations: 26774)
+Completed 200 OK in 141ms (Views: 115.3ms | ActiveRecord: 10.5ms | Allocations: 35881)
+
+
+Started GET "/boards/2" for 192.168.80.1 at 2021-02-03 10:29:07 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 1.1ms | Allocations: 8906)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 10:29:07 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.8ms | Allocations: 307)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 7361)
+Completed 200 OK in 69ms (Views: 57.6ms | ActiveRecord: 1.2ms | Allocations: 16578)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:29:10 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (20.5ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 52.1ms | Allocations: 19797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.7ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 109.2ms | Allocations: 26756)
+Completed 200 OK in 123ms (Views: 87.8ms | ActiveRecord: 24.8ms | Allocations: 35866)
+
+
+Started GET "/boards/2" for 192.168.80.1 at 2021-02-03 10:29:31 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:73:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 2[0m
+  ↳ app/views/boards/_board.html.erb:5
+  Rendered boards/_board.html.erb (Duration: 52.7ms | Allocations: 45769)
+  [1m[36mComment Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 2[0m
+  ↳ app/views/boards/show.html.erb:17
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 1.2ms | Allocations: 372)
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered comments/_form.html.erb (Duration: 2.5ms | Allocations: 492)
+  Rendered boards/show.html.erb within layouts/application (Duration: 75.2ms | Allocations: 56110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 131.0ms | Allocations: 62988)
+Completed 200 OK in 233ms (Views: 123.9ms | ActiveRecord: 28.5ms | Allocations: 145579)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:29:34 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (2.7ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 36.5ms | Allocations: 21736)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 103.9ms | Allocations: 28695)
+Completed 200 OK in 117ms (Views: 102.7ms | ActiveRecord: 6.4ms | Allocations: 37825)
+
+
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-03 10:29:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 1.0ms | Allocations: 8906)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-03 10:29:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 0.9ms | Allocations: 307)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 7361)
+Completed 200 OK in 66ms (Views: 55.9ms | ActiveRecord: 1.0ms | Allocations: 16574)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-03 10:29:38 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (3.8ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 33.4ms | Allocations: 19797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 88.8ms | Allocations: 26757)
+Completed 200 OK in 102ms (Views: 85.6ms | ActiveRecord: 7.2ms | Allocations: 35871)
+
+

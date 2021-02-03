@@ -1,6 +1,6 @@
 class BoardsController < ApplicationController
   # before_action :set_target_board, only: %i[show edit update destroy]
-  # before_action :authenticate_user, {only: [:new, :create, :edit, :update, :destroy]}
+  skip_before_action :authenticate_user, {only: [:index, :show]}
   protect_from_forgery :except => [:destroy]
 
 

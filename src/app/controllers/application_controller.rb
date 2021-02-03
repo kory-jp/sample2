@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  include CommonMethod
+  include Sessionable
   before_action :current_user
   before_action :authenticate_user
 
