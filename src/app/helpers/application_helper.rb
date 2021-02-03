@@ -1,4 +1,5 @@
 module ApplicationHelper
+  # アクティブメニュー
   def header_link_item(name, path)
     class_name = 'nav-item'
     class_name << ' active' if current_page?(path)
