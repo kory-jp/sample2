@@ -1,6 +1,6 @@
 class BoardsController < ApplicationController
-  before_action :set_target_board, only: %i[show edit update destroy]
-  before_action :authenticate_user, {only: [:new, :create, :edit, :update, :destroy]}
+  # before_action :set_target_board, only: %i[show edit update destroy]
+  skip_before_action :authenticate_user, {only: [:index, :show]}
   protect_from_forgery :except => [:destroy]
 
 
@@ -17,7 +17,8 @@ class BoardsController < ApplicationController
   def create
     board = Board.new(board_params)
     # user_idを追加
-    board.user = current_user
+    # board.user = current_user
+    # board.user_id = current_user.id
     if board.save
       flash[:notice] = "「#{board.title}」の掲示板を作成しました"
       redirect_to board
@@ -30,19 +31,22 @@ class BoardsController < ApplicationController
   end
 
   def show
+    set_target_board
     # @comment = @board.comments.new
     @comment = Comment.new(board_id: @board.id)
   end
 
   def edit
+    set_target_board
   end
 
   def update
+    set_target_board
     # view作成しないためローカル変数で可
     # @board.update(board_params)
 
     # redirect_to @board
-    @board.user = current_user
+    # @board.user_id = current_user.id
     if @board.update(board_params)
       redirect_to @board
     else
@@ -54,6 +58,7 @@ class BoardsController < ApplicationController
   end
 
   def destroy
+    set_target_board
     @board.destroy
     redirect_to boards_path, flash: {notice: "「#{@board.title}」の掲示板が削除されました"}
   end
@@ -61,7 +66,7 @@ class BoardsController < ApplicationController
   private
   
   def board_params
-    params.require(:board).permit(:name, :title, :body, tag_ids:[])
+    params.require(:board).permit(:name, :title, :body, tag_ids:[]).merge(user_id: current_user.id)
   end
 
   def set_target_board
