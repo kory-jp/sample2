@@ -4,6 +4,7 @@
 #
 #  id         :bigint           not null, primary key
 #  body       :text(65535)
+#  image_data :text(65535)
 #  name       :string(255)
 #  title      :string(255)
 #  created_at :datetime         not null
@@ -21,6 +22,7 @@
 class Board < ApplicationRecord
   has_many :comments, dependent: :delete_all
   belongs_to :user
+  include ImageUploader[:image]
 
   has_many :board_tag_relations, dependent: :delete_all 
   has_many :tags, through: :board_tag_relations

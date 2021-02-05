@@ -84991,3 +84991,277 @@ Processing by BoardsController#index as HTML
 Completed 200 OK in 102ms (Views: 85.6ms | ActiveRecord: 7.2ms | Allocations: 35871)
 
 
+  [1m[35m (1.9ms)[0m  [1m[34m
+	SELECT
+		GET_LOCK (
+			'5277929974492897470'
+			,0
+		)[0m
+  [1m[35m (3.7ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Migrating to AddColumnToBoards (20210205025816)
+  [1m[35m (122.7ms)[0m  [1m[35m
+	ALTER TABLE
+	`boards` ADD `image_data` text[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35m
+	BEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.3ms)[0m  [1m[32m
+	INSERT
+	INTO
+		`schema_migrations` (`version`)
+	VALUES ('20210205025816')[0m
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[35m
+	COMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (11.8ms)[0m  [1m[34m
+	SELECT
+		`ar_internal_metadata`. *
+	FROM
+		`ar_internal_metadata`
+	WHERE
+		`ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (2.0ms)[0m  [1m[34m
+	SELECT
+		RELEASE_LOCK ('5277929974492897470')[0m
+  [1m[35m (1.0ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 09:53:18 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 09:55:15 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:02:48 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:02:49 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:02:56 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Completed 500 Internal Server Error in 167ms (ActiveRecord: 7.1ms | Allocations: 40147)
+
+
+  
+NameError (uninitialized constant #<Class:0x00007f0fe8bb25e8>::ImageUploarder):
+  
+app/models/board.rb:25:in `<class:Board>'
+app/models/board.rb:22:in `<main>'
+app/controllers/boards_controller.rb:8:in `index'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:03:24 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...tle, :body, tag_ids:[], :image).merge(user_id: current_user....
+...                              ^
+):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:04:23 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:06:11 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...: current_user.id, :image_data)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:06:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...: current_user.id, :image_data)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:17:08 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:69: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:76: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:21:04 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/app/app/controllers/boards_controller.rb:70: syntax error, unexpected ')', expecting =>
+...er_id: current_user.id, :image)
+...                              ^
+/app/app/controllers/boards_controller.rb:77: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/boards_controller.rb:70: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:77: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:70: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:77: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/boards_controller.rb:70: syntax error, unexpected ')', expecting =>
+app/controllers/boards_controller.rb:77: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:27:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 8.9ms | Allocations: 48925)
+
+
+  
+NameError (uninitialized constant #<Class:0x000055dabeb332d0>::ImageUploarder):
+  
+app/models/board.rb:25:in `<class:Board>'
+app/models/board.rb:22:in `<main>'
+app/controllers/boards_controller.rb:8:in `index'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:39:43 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 2.3ms | Allocations: 28146)
+
+
+  
+NameError (uninitialized constant #<Class:0x000055dabeb332d0>::ImageUploarder):
+  
+app/models/board.rb:25:in `<class:Board>'
+app/models/board.rb:22:in `<main>'
+app/controllers/boards_controller.rb:8:in `index'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 10:50:20 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 3.1ms | Allocations: 27363)
+
+
+  
+Zeitwerk::NameError (expected file /app/app/uploaders/image_uploader.rb to define constant ImageUploader, but didn't):
+  
+app/models/board.rb:25:in `<class:Board>'
+app/models/board.rb:22:in `<main>'
+app/controllers/boards_controller.rb:8:in `index'
