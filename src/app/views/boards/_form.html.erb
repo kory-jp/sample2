@@ -19,7 +19,7 @@
 
   <div class="form-group">
     <%= f.label :image_data, '画像' %>
-    <%= f.hidden_field :image, value: current_user.cached_iamge_data %>
+    <%= f.hidden_field :image, value: @current_user.cached_image_data %>
     <%= f.file_field :image %>
   </div>
 

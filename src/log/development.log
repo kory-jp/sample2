@@ -85265,3 +85265,739 @@ Zeitwerk::NameError (expected file /app/app/uploaders/image_uploader.rb to defin
 app/models/board.rb:25:in `<class:Board>'
 app/models/board.rb:22:in `<main>'
 app/controllers/boards_controller.rb:8:in `index'
+Started GET "/boards/" for 192.168.80.1 at 2021-02-05 11:17:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (2.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 3.9ms | Allocations: 29002)
+
+
+  
+NameError (uninitialized constant #<Class:0x000055dabeada298>::ImageUploader):
+  
+app/models/board.rb:25:in `<class:Board>'
+app/models/board.rb:22:in `<main>'
+app/controllers/boards_controller.rb:8:in `index'
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 11:17:43 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 1.3ms | Allocations: 10931)
+
+
+  
+NameError (uninitialized constant #<Class:0x000055dabeada298>::ImageUploader):
+  
+app/models/board.rb:25:in `<class:Board>'
+app/models/board.rb:22:in `<main>'
+app/controllers/boards_controller.rb:8:in `index'
+Started GET "/" for 192.168.80.1 at 2021-02-05 11:17:44 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 52.6ms | Allocations: 1161)
+  Rendered home/index.html.erb within layouts/application (Duration: 59.3ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 4.0ms | Allocations: 439)
+  Rendered layout layouts/application.html.erb (Duration: 4719.7ms | Allocations: 48001)
+Completed 200 OK in 4748ms (Views: 4726.8ms | ActiveRecord: 2.0ms | Allocations: 57956)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 11:19:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (2.2ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (25.2ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 3001.6ms | Allocations: 288398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 3070.9ms | Allocations: 295666)
+Completed 200 OK in 3149ms (Views: 3027.2ms | ActiveRecord: 53.1ms | Allocations: 313702)
+
+
+Started GET "/boards/2" for 192.168.80.1 at 2021-02-05 11:19:45 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:74:in `set_target_board'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (3.1ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 2[0m
+  ↳ app/views/boards/_board.html.erb:5
+  Rendered boards/_board.html.erb (Duration: 179.9ms | Allocations: 30876)
+  [1m[36mComment Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 2[0m
+  ↳ app/views/boards/show.html.erb:17
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 6.3ms | Allocations: 522)
+  Rendered shared/_error_messages.html.erb (Duration: 4.2ms | Allocations: 182)
+  Rendered comments/_form.html.erb (Duration: 41.2ms | Allocations: 1264)
+  Rendered boards/show.html.erb within layouts/application (Duration: 316.0ms | Allocations: 44121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 377.6ms | Allocations: 50988)
+Completed 200 OK in 432ms (Views: 373.0ms | ActiveRecord: 16.4ms | Allocations: 91453)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 11:19:48 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (2.0ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 34.4ms | Allocations: 19798)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 87.7ms | Allocations: 26757)
+Completed 200 OK in 100ms (Views: 86.2ms | ActiveRecord: 5.5ms | Allocations: 35860)
+
+
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 11:19:49 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+Redirected to http://localhost:3000/
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 1.0ms | Allocations: 8924)
+
+
+Started GET "/" for 192.168.80.1 at 2021-02-05 11:19:49 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (Duration: 1.0ms | Allocations: 307)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.5ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 7375)
+Completed 200 OK in 88ms (Views: 72.3ms | ActiveRecord: 1.1ms | Allocations: 16591)
+
+
+Started POST "/login" for 192.168.80.1 at 2021-02-05 11:19:59 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#create as HTML
+  Parameters: 
+{
+    "authenticity_token"[0;37m => [0m[0;33m"[FILTERED]"[0m,
+               "session"[0;37m => [0m{
+            "name"[0;37m => [0m[0;33m"user3"[0m,
+        "password"[0;37m => [0m[0;33m"[FILTERED]"[0m
+    },
+                "commit"[0;37m => [0m[0;33m"ログイン"[0m
+}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`name` = 'user3' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/mypage
+Completed 302 Found in 336ms (ActiveRecord: 5.4ms | Allocations: 36280)
+
+
+Started GET "/mypage" for 192.168.80.1 at 2021-02-05 11:19:59 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#me as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (Duration: 3.8ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 7613)
+Completed 200 OK in 76ms (Views: 59.5ms | ActiveRecord: 1.2ms | Allocations: 16886)
+
+
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 11:20:01 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (6.9ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 38.1ms | Allocations: 19811)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 0.6ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 87.9ms | Allocations: 26858)
+Completed 200 OK in 103ms (Views: 81.0ms | ActiveRecord: 11.5ms | Allocations: 34925)
+
+
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 11:20:02 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 16.4ms | Allocations: 5424)
+  Rendered boards/new.html.erb within layouts/application (Duration: 24.3ms | Allocations: 5781)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 5845)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.5ms | Allocations: 13979)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<ActionView::Base:0x00000000019668>
+Did you mean?  @current_user):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: current_user.cached_iamge_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 11:20:44 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 2.3ms | Allocations: 179)
+  Rendered boards/_form.html.erb (Duration: 19.4ms | Allocations: 4745)
+  Rendered boards/new.html.erb within layouts/application (Duration: 23.4ms | Allocations: 5105)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 5169)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.9ms | Allocations: 13983)
+
+
+  
+ActionView::Template::Error (undefined method `cached_iamge_data' for #<User:0x00007f0fe4417e68>
+Did you mean?  cache_timestamp_format):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_iamge_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 11:20:50 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 11.6ms | Allocations: 4019)
+  Rendered boards/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 4144)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4208)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.4ms | Allocations: 12217)
+
+
+  
+ActionView::Template::Error (undefined method `cached_iamge_data' for #<User:0x00007f0fe4759040>
+Did you mean?  cache_timestamp_format):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_iamge_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 13:16:25 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 12.4ms | Allocations: 3961)
+  Rendered boards/new.html.erb within layouts/application (Duration: 14.2ms | Allocations: 4084)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 4148)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 2.5ms | Allocations: 27237)
+
+
+  
+ActionView::Template::Error (undefined method `cached_iamge_data' for #<User:0x00007f0fdc87c970>
+Did you mean?  cache_timestamp_format):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_iamge_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 13:16:27 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 16.0ms | Allocations: 4018)
+  Rendered boards/new.html.erb within layouts/application (Duration: 19.0ms | Allocations: 4141)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 4205)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 1.3ms | Allocations: 12213)
+
+
+  
+ActionView::Template::Error (undefined method `cached_iamge_data' for #<User:0x00007f0fe8f02cc0>
+Did you mean?  cache_timestamp_format):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_iamge_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 13:16:49 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 2.7ms | Allocations: 179)
+  Rendered boards/_form.html.erb (Duration: 22.8ms | Allocations: 4682)
+  Rendered boards/new.html.erb within layouts/application (Duration: 27.3ms | Allocations: 5043)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 5107)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 1.1ms | Allocations: 13921)
+
+
+  
+ActionView::Template::Error (undefined method `cached_image_data' for #<User:0x00007f0fe417ae30>):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_image_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 13:34:57 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (40.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 17.5ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 365.7ms | Allocations: 3912)
+  Rendered boards/new.html.erb within layouts/application (Duration: 434.7ms | Allocations: 4037)
+  Rendered layout layouts/application.html.erb (Duration: 439.0ms | Allocations: 4101)
+Completed 500 Internal Server Error in 1358ms (ActiveRecord: 152.0ms | Allocations: 27192)
+
+
+  
+ActionView::Template::Error (undefined method `cached_image_data' for #<User:0x00007f0fe866b940>):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_image_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 13:36:02 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.3ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 4.0ms | Allocations: 189)
+  Rendered boards/_form.html.erb (Duration: 90.2ms | Allocations: 6041)
+  Rendered boards/new.html.erb within layouts/application (Duration: 117.4ms | Allocations: 6650)
+  Rendered layout layouts/application.html.erb (Duration: 121.7ms | Allocations: 6719)
+Completed 500 Internal Server Error in 543ms (ActiveRecord: 15.2ms | Allocations: 71716)
+
+
+  
+ActionView::Template::Error (undefined method `cached_image_data' for #<User:0x000055728d2d8a48>):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_image_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 13:46:02 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 11.9ms | Allocations: 3909)
+  Rendered boards/new.html.erb within layouts/application (Duration: 14.5ms | Allocations: 4034)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 4099)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 2.1ms | Allocations: 27206)
+
+
+  
+ActionView::Template::Error (undefined method `cached_image_data' for #<User:0x00007f7344c9e898>):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_image_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 14:00:09 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered boards/_form.html.erb (Duration: 13.3ms | Allocations: 3908)
+  Rendered boards/new.html.erb within layouts/application (Duration: 15.4ms | Allocations: 4031)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4095)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 2.4ms | Allocations: 27183)
+
+
+  
+ActionView::Template::Error (undefined method `cached_image_data' for #<User:0x00007f7344bb4e78>):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_image_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
+Started GET "/boards" for 192.168.80.1 at 2021-02-05 14:08:33 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.1ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (9.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (5.8ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  ↳ app/views/boards/index.html.erb:6
+  [1m[36mBoard Load (5.0ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  ↳ app/views/boards/index.html.erb:34
+  [1m[35m (9.1ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  ↳ app/views/boards/index.html.erb:49
+  Rendered boards/index.html.erb within layouts/application (Duration: 2682.1ms | Allocations: 278166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered application/_header.html.erb (Duration: 4.2ms | Allocations: 522)
+  Rendered layout layouts/application.html.erb (Duration: 7213.8ms | Allocations: 322036)
+Completed 200 OK in 7360ms (Views: 7198.1ms | ActiveRecord: 50.4ms | Allocations: 362248)
+
+
+Started GET "/boards/new" for 192.168.80.1 at 2021-02-05 14:08:45 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/concerns/sessionable.rb:7:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 3.8ms | Allocations: 184)
+  Rendered boards/_form.html.erb (Duration: 47.1ms | Allocations: 5351)
+  Rendered boards/new.html.erb within layouts/application (Duration: 52.8ms | Allocations: 5715)
+  Rendered layout layouts/application.html.erb (Duration: 55.2ms | Allocations: 5780)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 1.2ms | Allocations: 13946)
+
+
+  
+ActionView::Template::Error (undefined method `cached_image_data' for #<User:0x000055de6b19d378>):
+    19: 
+    20:   <div class="form-group">
+    21:     <%= f.label :image_data, '画像' %>
+    22:     <%= f.hidden_field :image, value: @current_user.cached_image_data %>
+    23:     <%= f.file_field :image %>
+    24:   </div>
+    25: 
+  
+app/views/boards/_form.html.erb:22
+app/views/boards/_form.html.erb:3
+app/views/boards/new.html.erb:8
