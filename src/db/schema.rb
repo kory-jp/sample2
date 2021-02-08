@@ -28,7 +28,6 @@ ActiveRecord::Schema.define(version: 2021_02_05_025816) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "user_id"
-    t.text "image_data"
     t.index ["user_id"], name: "index_boards_on_user_id"
   end
 

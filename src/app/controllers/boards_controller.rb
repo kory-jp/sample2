@@ -19,7 +19,7 @@ class BoardsController < ApplicationController
     # user_idを追加
     # board.user = current_user
     # board.user_id = current_user.id
-    if @board.save
+    if board.save
       flash[:notice] = "「#{board.title}」の掲示板を作成しました"
       redirect_to board
     else
