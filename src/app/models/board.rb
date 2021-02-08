@@ -22,7 +22,8 @@
 class Board < ApplicationRecord
   has_many :comments, dependent: :delete_all
   belongs_to :user
-  include ImageUploader[:image]
+  # include ImageUploader[:image]
+  include ImageUploader::Attachment(:image)
 
   has_many :board_tag_relations, dependent: :delete_all 
   has_many :tags, through: :board_tag_relations
