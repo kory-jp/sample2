@@ -67,7 +67,7 @@ class BoardsController < ApplicationController
   
   def board_params
     params.require(:board).permit(:name, :title, :body, tag_ids:[]).\
-    merge(user_id: current_user.id).merge(:image)
+    merge(user_id: current_user.id).merge(:image_data)
   end
 
   def set_target_board
