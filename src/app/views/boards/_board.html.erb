@@ -10,4 +10,9 @@
     <p class="card-text"><%= simple_format(board.body) %></</p>
     <p class="text-right font-weight-bold mr-10"><%= board.name %></</p>
   </div>
+  <% if @board.image == nil %>
+    <div>no image</div>
+  <% else %>
+    <%= image_tag @board.image[:small].url %>
+  <% end %>
 </div>
