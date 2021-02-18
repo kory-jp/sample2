@@ -7,7 +7,7 @@ class ImageUploader < Shrine
   plugin :delete_raw
   plugin :validation_helpers
 
-  process(:store) do | io, context|
+  process(:store) do |io, context|
     versions = { original: io }
   
     io.download do | original |
@@ -15,7 +15,8 @@ class ImageUploader < Shrine
   
       versions[:large] = pipline.resize_to_limit!(800, 800)
       versions[:medium] = pipline.resize_to_limit!(500, 500)
-      versions[:small] = pipline.resize_to_limit!(300, 300)
+      versions[:small] = pipline.resize_to_limit!(300, 00)
+
     end
 
     versions
