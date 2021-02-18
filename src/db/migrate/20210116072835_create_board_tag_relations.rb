@@ -1,5 +1,6 @@
 class CreateBoardTagRelations < ActiveRecord::Migration[6.1]
-  def change
+
+  def up
     create_table :board_tag_relations do |t|
       t.references :board, null: false, foreign_key: true
       t.references :tag, null: false, foreign_key: true
@@ -7,4 +8,9 @@ class CreateBoardTagRelations < ActiveRecord::Migration[6.1]
       t.timestamps
     end
   end
+
+  def down
+    drop_table :board_tag_relations
+  end
+
 end

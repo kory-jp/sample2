@@ -1,5 +1,6 @@
 class CreateBoards < ActiveRecord::Migration[6.1]
-  def change
+
+  def up
     create_table :boards do |t|
       t.string :name
       t.string :title
@@ -9,4 +10,9 @@ class CreateBoards < ActiveRecord::Migration[6.1]
       t.timestamps
     end
   end
+
+  def down
+    drop_table :boards
+  end
+  
 end

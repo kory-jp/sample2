@@ -11,3 +11,10 @@
     <p class="text-right font-weight-bold mr-10"><%= board.name %></</p>
   </div>
 </div>
+
+<% if @board.image == nil %>
+  <div>no image</div>
+<% else %>
+  <%= image_tag board.image[:medium].url %>
+<% end %>
+

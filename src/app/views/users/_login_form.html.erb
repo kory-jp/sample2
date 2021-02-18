@@ -10,4 +10,6 @@
     <%= f.password_field :password, class: 'form-control' %>
   </div>
   <%= f.submit 'ログイン', class: 'btn btn-primary' %>
+  <%= link_to '新規ユーザ-の方はコチラ', new_user_path, class: 'dropdown-item' %>
+
 <% end %>
