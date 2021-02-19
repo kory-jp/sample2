@@ -13,9 +13,6 @@
 <p>メールアドレス:</p>
 <%= @current_user.email%>
 
-
-
-
-
-
-
+<% @favorite_boards.each do |board|%>
+  <p><span>いいね記事:</span><%= link_to board.body, board_path(board.id) %></p>
+<% end %>

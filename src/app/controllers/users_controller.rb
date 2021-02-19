@@ -25,6 +25,7 @@ class UsersController < ApplicationController
 
   def me
     @user = current_user
+    @favorite_boards = @user.favorite_boards
   end
 
   def edit

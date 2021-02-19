@@ -21,7 +21,13 @@
 #
 class Board < ApplicationRecord
   has_many :comments, dependent: :delete_all
+  has_many :favorites
   belongs_to :user
+
+  def favorited_by?(uer)
+    favorites.where(user_id: user.id).exists?
+  end
+
   # include ImageUploader::Attachment(:image)
   include ImageUploader[:image]
 
