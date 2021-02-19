@@ -10,6 +10,19 @@
     <p class="card-text"><%= simple_format(board.body) %></</p>
     <p class="text-right font-weight-bold mr-10"><%= board.name %></</p>
   </div>
+
+  <%# お気に入り機能-------------- %>
+  <% if @current_user %>
+    <% if board.favorited_by?(@current_user) %>
+      <p><span>お気に入り解除:</span><%= button_to board.favorites.count, board_favorites_path(board.id), method: :delete %></p>
+    <% else %>
+      <p><span>お気に入り登録:</span><%= button_to board.favorites.count, board_favorites_path(board.id), method: :post %></p>
+    <% end %>
+  <% else %>
+    <p><span>お気に入り数:</span><%= board.favorites.count %></p>
+  <% end %>
+  <%# お気に入り----------------- %>
+
 </div>
 
 <% if @board.image == nil %>
