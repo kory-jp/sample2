@@ -23,6 +23,17 @@
   <% end %>
   <%# お気に入り----------------- %>
 
+  <%# フォロー機能---------------- %>
+  <% if @current_user != board.user %>
+    <% if board.user.followed_by?(@current_user) %>
+      <p><%= link_to "フォロー済み", user_relationships_path(board.user.id), method: :delete %></p>
+    <% else %>
+      <p><%= link_to "フォローする", user_relationships_path(board.user.id), method: :post %></p>
+    <% end %>
+  <% end %>
+  <%# フォロー機能---------------- %>
+
+
 </div>
 
 <% if @board.image == nil %>
